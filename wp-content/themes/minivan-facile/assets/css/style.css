@@ -1,0 +1,502 @@
+/*
+Theme Name: Minibus Facile
+Theme URI: 
+Author: Festimove
+Author URI: 
+Description: 
+Version: 1.3
+License: GNU General Public License v2 or later 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar-orange {
+	background: #f5841f;
+	border-radius: 0px;
+	border: none;
+	margin-bottom: 0px;
+}
+
+.navbar-orange .navbar-brand {
+	height: auto;
+	padding: 20px 15px;
+}
+
+.navbar-nav {
+	margin-top: 32px;
+}
+
+.navbar-nav li a {
+	color: #fee7d8;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.navbar-nav.separator li {
+	background: url('../images/line.png') right center no-repeat;
+}
+
+.navbar-nav.separator li a {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.navbar-nav li a:hover {
+	color: #fff;
+}
+
+.navbar-nav.separator li:last-child {
+	background: none;
+}
+
+.navbar-nav li a:hover,.navbar-nav li a:active,.navbar-nav li a:visited,.navbar-nav li a:focus {
+	background: none;
+}
+
+.sandwitch {
+	width: 24px;
+	height: 15px;
+	display: inline-block;
+	background: url('../images/sep.png') no-repeat;
+	margin-left: 12px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background: none;
+	border-color: none;
+}
+
+.navbar-nav .dropdown-menu li a {
+	color: #797979;
+	font-size: 18px;
+}
+
+#banner {
+	background: url('../images/banner.jpg') center top no-repeat #f5841f;
+	min-height: 671px;
+}
+
+#search-block {
+	background: #fff;
+	padding: 30px;
+	margin-top: 450px;
+}
+
+#search-block label {
+	text-transform: uppercase;
+	color: #575757;
+	font-size: 18px;
+}
+
+#search-block .field-wrap-r {
+	background-color: #e9e9e9;
+	padding-right: 50px;
+	position: relative;
+	border-radius: 4px;
+}
+
+#search-block label {
+	display: block;
+}
+
+#search-block .field-wrap-l {
+	background-color: #e9e9e9;
+	padding-left: 50px;
+	position: relative;
+	border-radius: 4px;
+}
+
+#search-block  input {
+	border:none;
+	background: none;
+	box-shadow: none;
+	border-radius: 0px;
+	font-size: 20px;
+	/*padding: 25px 15px;*/
+	color: #8e8e8e;
+	height: 55px;
+}
+
+#search-block  .field-wrap-r .ico-r {
+	right: 10px;
+	top: 10px;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+}
+
+#search-block  .field-wrap-l .ico-l {
+	left: 10px;
+	top: 10px;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+}
+
+#search-block  .field-wrap-l.col-l {
+	width: 60%;
+	float: left;
+	border-radius: 4px 0px 0px 4px;
+}
+
+#search-block  .field-wrap-l.col-r {
+	width: 40%;
+	float: left;
+	border-radius: 0px 4px 4px 0px;
+}
+
+#search-block .submit-btn {
+	box-shadow: none;
+    border: none;
+    width: 62px;
+    height: 48px;
+    margin-top: 33px;
+    border-radius: 4px;
+    background: url('../images/next.png') no-repeat center #7dc500;
+
+}
+
+.location-ico {
+	background: url('../images/place-marker.png') no-repeat center center #e9e9e9;
+}
+
+.cal-ico {
+	background: url('../images/cal-ico.png') no-repeat center center #e9e9e9;
+}
+
+.clock-ico {
+	background: url('../images/time-ico.png') no-repeat center center #e9e9e9;	
+}
+
+#intro {
+	padding: 60px 0px;
+	background: #f4f4f4;
+}
+
+#intro h1 {
+	max-width: 800px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #f5841f;
+	text-align: center;
+	margin: 0px auto 60px auto;
+}
+
+#intro .col {
+	display: table;
+	float: left;
+	margin-right: 35px;
+	margin-bottom: 25px;
+}
+
+#intro .col:last-child {
+	margin-right: 0px;
+}
+
+#intro .col h4 {
+	text-align: center;
+    font-size: 28px;
+    max-width: 174px;
+    margin: 25px auto 0px auto;
+    color: #313131;
+    font-weight: 600;
+}
+
+#intro span.line {
+	width: 96px;
+	height: 5px;
+	border-radius: 10px;
+	display: block;
+	margin: 15px auto;
+}
+
+#intro span.red {
+	background: #e43f53;
+}
+
+#intro span.blue {
+	background: #3f89e4;
+}
+
+#intro span.yellow {
+	background: #e4d63f;
+}
+
+#intro span.green {
+	background: #7dc500;
+}
+
+#intro span.orange {
+	background: #e47d3f;
+}
+
+
+#intro p {
+	color: #8c8c8c;
+	font-size: 16px;
+	text-align: center;
+	max-width: 180px;
+	margin: 0px auto;
+}
+
+#offers {
+	padding: 86px 0px;
+}
+
+#offers h2 {
+	max-width: 800px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #f5841f;
+	text-align: center;
+	margin: 0px auto 30px auto;
+	font-size: 36px;
+}
+
+#offers .car .car-name {
+	color: #313131;
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#offers .car .price {
+	color: #e47d3f;
+    font-weight: 600;
+    text-align: center;
+    font-size: 46px;
+    display: block;
+    line-height: 34px;
+}
+#offers .car  .caption {
+	color: #8c8c8c;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 18px;
+	display: block;
+}
+
+#offers .car .car-name:hover,#offers .car .car-name:active,#offers .car .car-name:focus,#offers .car .car-name:visited {
+	color: #484848;
+}
+
+#offers .car .block-btn {
+	display: block;
+	width: 100%;
+	background: #7dc500;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 4px;
+	margin-top: 30px;
+}
+
+#offers .car .block-btn:hover {
+	background: #a3db40;
+}
+
+#offers .car .img {
+	text-align: center;
+    display: block;
+}
+
+#offers .car .img img {
+	max-width: 100%;
+}
+
+#footer {
+	background: #404040;
+	padding: 35px 0px;
+}
+
+#footer ul.nav {
+	margin: 0px auto;
+	padding: 0px;
+	display: table;
+}
+
+#footer ul.nav li {
+	float: left;   
+	background: url('../images/sl.png') no-repeat right center;
+}
+
+#footer ul.nav li:last-child {
+	background: none;
+}
+
+#footer ul.nav li a {
+	color: #b7b7b7;
+	text-decoration: none;
+	font-size: 16px;
+}
+#footer ul.nav li a:hover,#footer ul.nav li a:focus {
+	color: #dfdfdf;
+	background: none;
+}
+
+#footer p {
+	text-align: center;
+	color: #b7b7b7;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+#content  {
+	font-size: 16px;
+	min-height: 600px;
+	padding-bottom: 50px;
+}
+
+.b-form .form-control {
+	border-radius: 4px;
+    font-size: 18px;
+    height: auto;
+    padding: 10px 15px;
+}
+
+.block-btn {
+	display: block;
+    width: 100%;
+    background: #7dc500;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 4px;
+    
+    border: none;
+}
+
+.resp {
+	max-width: 100%;
+}
+
+#banner-img {
+	margin-top: 120px;
+}
+
+.festi-title {
+	text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.login-block .or {
+	text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.login-block .fb-btn {
+	display: block;
+    display: block;
+    width: 100%;
+    background: #337ab7;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* mobile styles */
+
+@media screen and (max-width: 767px) {
+
+
+
+	.navbar-toggle {
+		margin-top: 40px;
+		background: #fff;
+	    border-radius: 0px;
+	}
+
+	.navbar-toggle .icon-bar {
+		background: orange;
+	}
+
+	.navbar-nav.separator li a {
+		padding: 10px 15px;
+
+	}
+	
+	.navbar-nav.separator li {
+		background: none;
+	}
+
+	.navbar-nav .dropdown-menu li a {
+		color: #fee7d8;
+	}
+
+	.navbar-nav {
+		margin: 0px;
+	}
+
+	#banner {
+		background: url('../images/banner.jpg') center top no-repeat #f5841f;
+		min-height: 371px;
+		background-size: cover;
+		padding-bottom: 50px;
+	}
+
+	#search-block {
+		margin-top: 50px;
+	}
+
+	#search-block  input {
+		font-size: 18px;
+	}
+
+	body #intro .col {
+		float: none;
+    	margin: 0px auto 15px auto;
+	}
+
+	#intro .col:last-child {
+		margin: 0px auto 15px auto;
+	}
+
+	#footer ul.nav li {
+		width: 100%;
+		display: block;
+		float: none;
+		text-align: center;
+		background: none;
+	}
+
+
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.navbar-nav.separator li a {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#search-block {
+		margin-top: 250px;
+	}
+}

@@ -1,0 +1,863 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Reactive\n"
+"POT-Creation-Date: 2016-09-06 11:06+0600\n"
+"PO-Revision-Date: 2016-09-06 11:28+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: reactive.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin-template/reactive-geobox-html.php:15
+msgid "Type location"
+msgstr "Teclee localización"
+
+#: admin/admin-template/reactive-geobox-html.php:22
+msgid "City"
+msgstr "Ciudad"
+
+#: admin/admin-template/reactive-geobox-html.php:28
+msgid "Country"
+msgstr "País"
+
+#: admin/admin-template/reactive-geobox-html.php:37
+msgid "State"
+msgstr "Estado"
+
+#: admin/admin-template/reactive-geobox-html.php:45
+msgid "Zip code"
+msgstr "Código postal"
+
+#: admin/admin-template/reactive-geobox-html.php:51
+msgid "Latitude"
+msgstr "Latitud"
+
+#: admin/admin-template/reactive-geobox-html.php:57
+msgid "Longitude"
+msgstr "Longitud"
+
+#: admin/admin-template/reactive-settings.php:19
+msgid "Reactive Settings"
+msgstr "Configuración de reactivos"
+
+#: admin/admin-template/reactive-settings.php:24
+msgid "Google Map API Key"
+msgstr "Clave de API de Google"
+
+#: admin/admin-template/reactive-settings.php:36
+msgid "Turn Off Google Map"
+msgstr "Clave de API de Google"
+
+#: admin/admin-template/reactive-settings.php:42
+msgid "Geobox Enable"
+msgstr "habilitar Paypal"
+
+#: admin/admin-template/reactive-settings.php:55
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: admin/class-re-admin-geobox.php:37
+msgid "Geobox"
+msgstr ""
+
+#: admin/class-re-admin-scripts.php:77 app/class-re-frontend-scripts.php:97
+msgid "Save"
+msgstr "Guardar"
+
+#: admin/class-re-admin-scripts.php:78
+msgid "Please select post types for data restriction"
+msgstr "Por favor, seleccione los tipos de poste para la restricción de datos"
+
+#: admin/class-re-admin-scripts.php:79 app/class-re-frontend-scripts.php:185
+msgid "Please select a post type"
+msgstr "Por favor, seleccione un tipo de articulo"
+
+#: admin/class-re-admin-scripts.php:80
+msgid "Add Post Types"
+msgstr "Agregar tipo de entrada"
+
+#: admin/class-re-admin-scripts.php:81
+msgid ""
+"Select any checkbox inside the accoirdion for restricting data from front-"
+"end search panel. If you enable a checkbox this will automatically restrict "
+"your private data from the search panel, you don't want to share. e.g. for "
+"woocommerce you will need to disable the '_file_paths' for downloadable "
+"products."
+msgstr ""
+"Cualquier casilla dentro de la accoirdion para restringir los datos desde el "
+"panel de búsqueda front-end. Si activas una casilla de verificación "
+"automáticamente restringirá sus datos privados desde el panel de búsqueda, "
+"que no desea compartir. por ejemplo para woocommerce necesitará desactivar "
+"el '_file_paths' para productos descargables."
+
+#: admin/class-re-admin.php:34 admin/class-re-admin.php:46
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para editar las plantillas de esta web."
+
+#: admin/class-re-visual-composer.php:16
+msgid "Reactive Builder"
+msgstr "Constructor reactiva"
+
+#: admin/class-re-visual-composer.php:19
+msgid "Reactive PRO"
+msgstr "Reactive PRO"
+
+#: admin/class-re-visual-composer.php:25
+msgid "Key"
+msgstr "Clave"
+
+#: admin/class-re-visual-composer.php:28
+msgid "Enter an unique integer key. e.g. \""
+msgstr "Introduzca una clave de entero único. por ejemplo \""
+
+#: app/class-re-data-provider.php:562
+msgid "Empty Term"
+msgstr "Término vacío"
+
+#: app/class-re-frontend-scripts.php:98 app/class-re-frontend-scripts.php:240
+msgid "Add"
+msgstr "Agregar"
+
+#: app/class-re-frontend-scripts.php:99 app/class-re-frontend-scripts.php:250
+msgid "Options"
+msgstr "Opciones"
+
+#: app/class-re-frontend-scripts.php:100 app/class-re-frontend-scripts.php:170
+msgid "Grid"
+msgstr "Cuadrícula"
+
+#: app/class-re-frontend-scripts.php:101
+msgid "Widgets"
+msgstr "Widgets"
+
+#: app/class-re-frontend-scripts.php:102
+msgid "Choose Grid Layout"
+msgstr "Seleccione un diseño"
+
+#: app/class-re-frontend-scripts.php:103
+msgid "Select Type"
+msgstr "Seleccionar tipo"
+
+#: app/class-re-frontend-scripts.php:104
+msgid "Search"
+msgstr "Buscar"
+
+#: app/class-re-frontend-scripts.php:105
+msgid "Map"
+msgstr "Mapa"
+
+#: app/class-re-frontend-scripts.php:106
+msgid "Users"
+msgstr "Usuarios"
+
+#: app/class-re-frontend-scripts.php:107
+msgid "Change Map Layout:"
+msgstr "Cambiar diseño"
+
+#: app/class-re-frontend-scripts.php:108
+msgid "Change Height:"
+msgstr "Cambiar contraseña"
+
+#: app/class-re-frontend-scripts.php:109 app/class-re-frontend-scripts.php:236
+#: app/class-re-frontend-scripts.php:238
+msgid "Settings"
+msgstr "Ajustes"
+
+#: app/class-re-frontend-scripts.php:110
+msgid "Layout"
+msgstr "Diseño"
+
+#: app/class-re-frontend-scripts.php:111
+msgid "Column"
+msgstr "Columna"
+
+#: app/class-re-frontend-scripts.php:112 app/class-re-frontend-scripts.php:116
+#: app/class-re-frontend-scripts.php:164
+msgid "Desktop HD Size"
+msgstr "Tamaño de escritorio HD"
+
+#: app/class-re-frontend-scripts.php:113 app/class-re-frontend-scripts.php:117
+#: app/class-re-frontend-scripts.php:165
+msgid "Desktop Size"
+msgstr "Tamaño de escritorio"
+
+#: app/class-re-frontend-scripts.php:114 app/class-re-frontend-scripts.php:118
+#: app/class-re-frontend-scripts.php:166
+msgid "Tablet Size"
+msgstr "Tamaño de la tableta"
+
+#: app/class-re-frontend-scripts.php:115 app/class-re-frontend-scripts.php:119
+#: app/class-re-frontend-scripts.php:167
+msgid "Mobile size"
+msgstr "Tamaño móvil"
+
+#: app/class-re-frontend-scripts.php:120
+msgid "Sorting"
+msgstr "Ordenando"
+
+#: app/class-re-frontend-scripts.php:121
+msgid "Top bar"
+msgstr "Barra superior"
+
+#: app/class-re-frontend-scripts.php:122
+msgid "View Changer"
+msgstr "Cambiador de vista"
+
+#: app/class-re-frontend-scripts.php:123
+msgid "Bottom bar"
+msgstr "Barra inferior"
+
+#: app/class-re-frontend-scripts.php:124
+msgid "Bar appearance"
+msgstr "bar"
+
+#: app/class-re-frontend-scripts.php:125
+msgid "Number Of Post:"
+msgstr "Número de Entrada:"
+
+#: app/class-re-frontend-scripts.php:126
+msgid "Change Grid Layout:"
+msgstr "Cambiar diseño"
+
+#: app/class-re-frontend-scripts.php:127
+msgid "Post type:"
+msgstr "Tipo de publicación:"
+
+#: app/class-re-frontend-scripts.php:128
+msgid "Please select sorting attributes"
+msgstr "Por favor, seleccione atributos de clasificación"
+
+#: app/class-re-frontend-scripts.php:129
+msgid "Show or Hide the Topbar"
+msgstr "Mostrar u ocultar la barra superior"
+
+#: app/class-re-frontend-scripts.php:130
+msgid "Show or Hide the Topbar Pagination"
+msgstr "Mostrar u ocultar la barra superior la paginación"
+
+#: app/class-re-frontend-scripts.php:131
+msgid "Show or Hide the Search Filter Attributes"
+msgstr "Mostrar u ocultar los atributos del filtro de búsqueda"
+
+#: app/class-re-frontend-scripts.php:132
+msgid "Show or Hide the Sorting Option"
+msgstr "Mostrar u ocultar la opción de clasificación"
+
+#: app/class-re-frontend-scripts.php:133
+msgid "Show or Hide the View Changer"
+msgstr "Mostrar u ocultar el vista cambiador"
+
+#: app/class-re-frontend-scripts.php:134
+msgid "Show or Hide the Bottombar"
+msgstr "Mostrar u ocultar el Bottombar"
+
+#: app/class-re-frontend-scripts.php:135
+msgid "Show or Hide the Bottombar Pagination"
+msgstr "Mostrar u ocultar la paginación Bottombar"
+
+#: app/class-re-frontend-scripts.php:136
+msgid "Show or Hide the Bottombar Loadmore"
+msgstr "Mostrar u ocultar la Bottombar Loadmore"
+
+#: app/class-re-frontend-scripts.php:137
+msgid "Image Select"
+msgstr "Image Seleccionar"
+
+#: app/class-re-frontend-scripts.php:138
+msgid "Radio"
+msgstr "Radio"
+
+#: app/class-re-frontend-scripts.php:139
+msgid "Select"
+msgstr "Seleccionar"
+
+#: app/class-re-frontend-scripts.php:140
+msgid "Check Box"
+msgstr "Casilla de Verificación"
+
+#: app/class-re-frontend-scripts.php:141
+msgid "Size Box"
+msgstr "Tamaño de la caja"
+
+#: app/class-re-frontend-scripts.php:142
+msgid "Map Seach"
+msgstr "Búsqueda de mapa"
+
+#: app/class-re-frontend-scripts.php:143
+msgid "Color Box"
+msgstr "cuadro de colores"
+
+#: app/class-re-frontend-scripts.php:144
+msgid "Scroll Box"
+msgstr "Scroll Box"
+
+#: app/class-re-frontend-scripts.php:145
+msgid "Text"
+msgstr "Texto"
+
+#: app/class-re-frontend-scripts.php:146
+msgid "Combo Box"
+msgstr "Campo combinado"
+
+#: app/class-re-frontend-scripts.php:147
+msgid "Tags"
+msgstr "Tagi"
+
+#: app/class-re-frontend-scripts.php:148
+msgid "Range Input"
+msgstr "Entrada de rango"
+
+#: app/class-re-frontend-scripts.php:149
+msgid "Reset"
+msgstr "Restablecer"
+
+#: app/class-re-frontend-scripts.php:150
+msgid "Data"
+msgstr "Dato"
+
+#: app/class-re-frontend-scripts.php:151
+msgid "Calendar"
+msgstr "Calenario"
+
+#: app/class-re-frontend-scripts.php:152
+msgid "Zoom"
+msgstr "zoom"
+
+#: app/class-re-frontend-scripts.php:153
+msgid "Appearance"
+msgstr "Aspecto"
+
+#: app/class-re-frontend-scripts.php:154
+msgid "Please Enter the Title"
+msgstr "Introduzca el título."
+
+#: app/class-re-frontend-scripts.php:155
+msgid "Please Enter the SubTitle"
+msgstr "Subtítulo"
+
+#: app/class-re-frontend-scripts.php:156
+msgid "Please select a data type"
+msgstr "Seleccione un tipo"
+
+#: app/class-re-frontend-scripts.php:157
+msgid "Please choose a select type"
+msgstr "Por favor, elija un tipo de selección"
+
+#: app/class-re-frontend-scripts.php:158
+msgid "Please Enter the Custom CSS Class"
+msgstr "Introduce el nombre de clase CSS personalizado"
+
+#: app/class-re-frontend-scripts.php:159
+msgid "Change Categorey Layout:"
+msgstr "Cambiar el diseño de Categorey:"
+
+#: app/class-re-frontend-scripts.php:160
+msgid "Number Of Categorey:"
+msgstr "Número de Entrada:"
+
+#: app/class-re-frontend-scripts.php:161
+msgid "Loadmore Button Link:"
+msgstr "Enlace del botón Loadmore:"
+
+#: app/class-re-frontend-scripts.php:162
+msgid "Load More"
+msgstr "Cargar Mas"
+
+#: app/class-re-frontend-scripts.php:163
+msgid "Show LoadMore Button:"
+msgstr "Mostrar precios"
+
+#: app/class-re-frontend-scripts.php:168
+msgid "Select Marker Template"
+msgstr "Plantilla de correo electrónico"
+
+#: app/class-re-frontend-scripts.php:169
+msgid "Select Icon Template"
+msgstr "Seleccionar plantilla"
+
+#: app/class-re-frontend-scripts.php:171 app/class-re-frontend-scripts.php:189
+msgid "List"
+msgstr "Lista"
+
+#: app/class-re-frontend-scripts.php:172
+msgid "Choose Default View Type"
+msgstr "Por favor, elija un tipo de selección"
+
+#: app/class-re-frontend-scripts.php:173
+msgid "Show Histogram:"
+msgstr "Mostrar precios"
+
+#: app/class-re-frontend-scripts.php:174
+msgid "Show Number Of Items:"
+msgstr "Seleccionado"
+
+#: app/class-re-frontend-scripts.php:175
+msgid "Set Column:"
+msgstr "Fijar valor"
+
+#: app/class-re-frontend-scripts.php:176
+msgid "Show Toggle Option:"
+msgstr "Mostrar u ocultar la opción de clasificación"
+
+#: app/class-re-frontend-scripts.php:177
+msgid "Category"
+msgstr "Tipo de Inmueble"
+
+#: app/class-re-frontend-scripts.php:178
+msgid "Block Orientation"
+msgstr "Fechas de alquiler de bloque"
+
+#: app/class-re-frontend-scripts.php:179
+msgid "Vertical"
+msgstr "Vertical"
+
+#: app/class-re-frontend-scripts.php:180
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: app/class-re-frontend-scripts.php:181
+msgid "Default"
+msgstr "Predeterminado"
+
+#: app/class-re-frontend-scripts.php:182
+msgid "Dropdown"
+msgstr "Desplegar"
+
+#: app/class-re-frontend-scripts.php:183
+msgid "Custom Class"
+msgstr "Clase Personalizada"
+
+#: app/class-re-frontend-scripts.php:184
+msgid "Template Setting"
+msgstr "Configuración"
+
+#: app/class-re-frontend-scripts.php:186
+msgid "Do you want to show the result with Ajax"
+msgstr "Desea mostrar el resultado con Ajax"
+
+#: app/class-re-frontend-scripts.php:187
+msgid "Select a theme"
+msgstr "Seleccione un tema"
+
+#: app/class-re-frontend-scripts.php:188
+msgid "Select Categorey Template"
+msgstr "Seleccione plantilla de Categorey"
+
+#: app/class-re-frontend-scripts.php:190
+msgid "Please select a post type first from appearance settings"
+msgstr ""
+"Por favor seleccione un tipo de post en primer lugar de configuración de "
+"apariencia"
+
+#: app/class-re-frontend-scripts.php:191
+msgid "Welcome to Reactive"
+msgstr "Bienvenido a reactiva"
+
+#: app/class-re-frontend-scripts.php:192
+msgid ""
+"We are so excited to have you on board. Here are a few steps to maximize "
+"your experience."
+msgstr ""
+"Estamos encantados de tenerte a bordo. Aquí están algunos pasos para "
+"maximizar su experiencia."
+
+#: app/class-re-frontend-scripts.php:193
+msgid "First step"
+msgstr "Primer Paso"
+
+#: app/class-re-frontend-scripts.php:194
+msgid "Now you can create your SearchPage"
+msgstr "Ahora puedes crear tu página de buscar"
+
+#: app/class-re-frontend-scripts.php:195
+msgid "Second step"
+msgstr "Segunda etapa"
+
+#: app/class-re-frontend-scripts.php:196
+msgid "Add as your wish, build your page with style"
+msgstr "Añadir como su deseo, construir su página con estilo"
+
+#: app/class-re-frontend-scripts.php:197
+msgid "Third step"
+msgstr "Tercer paso"
+
+#: app/class-re-frontend-scripts.php:198
+msgid "Add search component and release the beast"
+msgstr "Añadir el componente de búsqueda y liberar a la bestia"
+
+#: app/class-re-frontend-scripts.php:199
+msgid "Forth step"
+msgstr "Primer Paso"
+
+#: app/class-re-frontend-scripts.php:200
+msgid ""
+"You will have total control over your data, add unlimited Taxonomy / "
+"Metadata as search attribute"
+msgstr ""
+"Usted tendrá control total sobre sus datos, agregar taxonomía ilimitado / "
+"metadatos como atributo de búsqueda"
+
+#: app/class-re-frontend-scripts.php:201
+msgid "Ready to go"
+msgstr "Listo para llevar"
+
+#: app/class-re-frontend-scripts.php:202
+msgid "Please follow the "
+msgstr "Por favor, siga las"
+
+#: app/class-re-frontend-scripts.php:203
+msgid "link"
+msgstr "enlace"
+
+#: app/class-re-frontend-scripts.php:204
+msgid " for further queries , If you need any "
+msgstr "para más consultas, si usted necesita cualesquiera"
+
+#: app/class-re-frontend-scripts.php:205
+msgid "help"
+msgstr "ayuda"
+
+#: app/class-re-frontend-scripts.php:206
+msgid " let us know. thanks"
+msgstr "háganoslo saber. Gracias"
+
+#: app/class-re-frontend-scripts.php:207
+msgid "Skip"
+msgstr "Saltar"
+
+#: app/class-re-frontend-scripts.php:208
+msgid "Next"
+msgstr "Siguiente"
+
+#: app/class-re-frontend-scripts.php:209
+msgid "Finish"
+msgstr "Finalizar"
+
+#: app/class-re-frontend-scripts.php:210
+msgid "Previous"
+msgstr "Anterior"
+
+#: app/class-re-frontend-scripts.php:211
+msgid "More"
+msgstr "Más"
+
+#: app/class-re-frontend-scripts.php:212
+msgid "Pagination Here"
+msgstr "Aquí la paginación"
+
+#: app/class-re-frontend-scripts.php:213
+msgid "Oops, No Post Found"
+msgstr "Oops, Post No Encontrado!"
+
+#: app/class-re-frontend-scripts.php:214
+msgid "Get your Location"
+msgstr "Tu ciudad"
+
+#: app/class-re-frontend-scripts.php:215
+msgid "No attributes found"
+msgstr "No hay atributos que se encuentran"
+
+#: app/class-re-frontend-scripts.php:216
+msgid "Search..."
+msgstr "Buscar..."
+
+#: app/class-re-frontend-scripts.php:217
+msgid "Please select Toogle Button On/Off"
+msgstr "Por favor seleccione Toogle botón ON/OFF"
+
+#: app/class-re-frontend-scripts.php:218
+msgid "Please select Calender Pop Type up/down"
+msgstr "Por favor seleccione tipo de calendario Pop up/down"
+
+#: app/class-re-frontend-scripts.php:219
+msgid "Please select Calender View Type right/left"
+msgstr "Por favor, seleccione tipo de calendario vista derecha/izquierda"
+
+#: app/class-re-frontend-scripts.php:220
+msgid "Please Enter the MaxValue"
+msgstr "Introduce el MaxValue"
+
+#: app/class-re-frontend-scripts.php:221
+msgid "Please Enter the MinValue"
+msgstr "Subtítulo"
+
+#: app/class-re-frontend-scripts.php:222
+msgid "Please Enter the Button Text"
+msgstr "Por favor introduzca el texto del botón"
+
+#: app/class-re-frontend-scripts.php:223
+msgid "Please Enter the Button Style e.g. btn btn-primary"
+msgstr "Introduce el estilo de botón e.g. btn btn-primaria"
+
+#: app/class-re-frontend-scripts.php:224
+msgid "Please Enter the Custom CSS ClassName"
+msgstr "Introduce el nombre de clase CSS personalizado"
+
+#: app/class-re-frontend-scripts.php:225
+msgid "Please select a view type"
+msgstr "Seleccione un tipo"
+
+#: app/class-re-frontend-scripts.php:226
+msgid "Enter any custom class Name"
+msgstr "Introduzca cualquier nombre de clase personalizada"
+
+#: app/class-re-frontend-scripts.php:227
+msgid "Class name for filter count"
+msgstr "Nombre de la clase para la cuenta del filtro"
+
+#: app/class-re-frontend-scripts.php:228
+msgid "Class name for sorting option"
+msgstr "Nombre de la clase para ordenar opción"
+
+#: app/class-re-frontend-scripts.php:229
+msgid "Class name for view changer"
+msgstr "Nombre de la clase para cambiador de vista"
+
+#: app/class-re-frontend-scripts.php:230
+msgid "Class name for topbar pagination"
+msgstr "Nombre de la clase para paginación de la barra superior"
+
+#: app/class-re-frontend-scripts.php:231
+msgid "Class name for bottombar pagination"
+msgstr "Nombre de la clase para paginación de bottombar"
+
+#: app/class-re-frontend-scripts.php:232
+msgid "Class name for bottombar loadmore"
+msgstr "Nombre de clase de bottombar loadmore"
+
+#: app/class-re-frontend-scripts.php:233
+msgid "title"
+msgstr "título"
+
+#: app/class-re-frontend-scripts.php:234
+msgid "Show Item Color Name"
+msgstr "Mostrar el nombre del Color del artículo"
+
+#: app/class-re-frontend-scripts.php:235
+msgid "Add Block"
+msgstr "Agregar Bloque"
+
+#: app/class-re-frontend-scripts.php:237
+msgid "Toogle"
+msgstr "Toogle"
+
+#: app/class-re-frontend-scripts.php:239
+msgid "Delete"
+msgstr "Eliminar"
+
+#: app/class-re-frontend-scripts.php:241
+msgid "Panel"
+msgstr "Tablero"
+
+#: app/class-re-frontend-scripts.php:242
+msgid "Help"
+msgstr "Ayuda"
+
+#: app/class-re-frontend-scripts.php:243
+msgid "Preview"
+msgstr "Vista previa"
+
+#: app/class-re-frontend-scripts.php:244
+msgid "Toogle Show More"
+msgstr "Toogle ver más"
+
+#: app/class-re-frontend-scripts.php:245
+msgid "Please enter range unit"
+msgstr "Introduce unidad de gama"
+
+#: app/class-re-frontend-scripts.php:246
+msgid "Select Number of options in load More Mode"
+msgstr "Seleccionar el número de opciones en carga más de modo"
+
+#: app/class-re-frontend-scripts.php:247
+msgid "Enter Any Custom Grid Wrapper Class Name"
+msgstr ""
+"Introduzca cualquier nombre de clase de contenedor de rejilla personalizada"
+
+#: app/class-re-frontend-scripts.php:248
+msgid "Custom Class Name for Categorey"
+msgstr "Nombre de la clase personalizada para Categorey"
+
+#: app/class-re-frontend-scripts.php:249
+msgid "Custom Class Name for MAP"
+msgstr "Nombre de la clase personalizada para ver mapa"
+
+#: app/class-re-frontend-scripts.php:251
+msgid "Map Radius"
+msgstr "Búsqueda de mapa"
+
+#: app/class-re-frontend-scripts.php:252
+msgid "Bar"
+msgstr "Cód."
+
+#: app/class-re-frontend-scripts.php:253
+msgid "Isotope Grid Column"
+msgstr "Columna de cuadrícula de isótopo"
+
+#: app/class-re-frontend-scripts.php:254
+msgid "Select Isotope Template"
+msgstr "Seleccione plantilla de isótopo"
+
+#: app/class-re-frontend-scripts.php:255
+msgid "Linear Checkbox"
+msgstr "Casilla de verificación lineal"
+
+#: app/class-re-frontend-scripts.php:256
+msgid "Enter Any Custom Isotope Grid Wrapper Class Name"
+msgstr "Nombre cualquier isótopo personalizado Grid Wrapper clase"
+
+#: app/class-re-frontend-scripts.php:257
+msgid "Enter Any Custom Isotope Bar Wrapper Class Name"
+msgstr ""
+"Ingrese cualquier isótopo personalizado barra nombre de clase de contenedor"
+
+#: app/class-re-frontend-scripts.php:258
+msgid "Isotope Grid"
+msgstr "Rejilla de isótopo"
+
+#: app/class-re-frontend-scripts.php:259
+msgid "Enter Radious(In Km)"
+msgstr "Entrar en radio (en Km)"
+
+#: app/class-re-frontend-scripts.php:260
+msgid "Pre Query"
+msgstr "Pre consulta"
+
+#: reactive.php:25
+msgid ""
+"Sorry this plugin use some <b>PHP VERSION 5.4</b> functionality. If you want "
+"to use this plugin please update your server <b>PHP VERSION 5.4</b> or "
+"higher."
+msgstr ""
+"Lo sentimos este plugin utiliza algunas funciones de <b>PHP versión 5.4</"
+"b> . Si desea utilizar este plugin por favor actualice su servidor <b>PHP "
+"versión 5.4</b> o superior."
+
+#. Plugin Name of the plugin/theme
+msgid "Reactive Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://codecanyon.net/item/reactive-pro-advance-wp-search-filter-"
+"grid/17425763"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Advance Searching, Filtering & Grid WordPress Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "redqteam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.redqteam.com"
+msgstr ""
+
+#~ msgid "Reactive"
+#~ msgstr "Reactive"
+
+#~ msgid "http://redqteam.com/demo/plugins/reactive"
+#~ msgstr "http://redqteam.com/demo/plugins/reactive"
+
+#~ msgid "Searching & Filtering WordPress Plugin"
+#~ msgstr "La búsqueda y filtrado de Wordpress Plugin"
+
+#~ msgid "RedQ Team"
+#~ msgstr "RedQ Team"
+
+#~ msgid "http://redqteam.com"
+#~ msgstr "http://redqteam.com"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Reactive Builders"
+#~ msgstr "Constructores reactivos"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "rebuilder"
+#~ msgstr "reconstructor"
+
+#~ msgid "Builder Archives"
+#~ msgstr "Archivos Builder"
+
+#~ msgid "Parent Builder:"
+#~ msgstr "Generador de los padres:"
+
+#~ msgid "All Items"
+#~ msgstr "Todos"
+
+#~ msgid "Add New Item"
+#~ msgstr "Añadir"
+
+#~ msgid "Add New"
+#~ msgstr "Dodaj nowy"
+
+#~ msgid "New Item"
+#~ msgstr "Nuevo Item"
+
+#~ msgid "Edit Item"
+#~ msgstr "Corregir objeto"
+
+#~ msgid "Update Item"
+#~ msgstr "Actualizar elemento"
+
+#~ msgid "View Item"
+#~ msgstr "Ver"
+
+#~ msgid "Search Item"
+#~ msgstr "Szukaj"
+
+#~ msgid "Not found"
+#~ msgstr "Niue znaleziono"
+
+#~ msgid "Not found in Trash"
+#~ msgstr "Niue znaleziono"
+
+#~ msgid "Featured Image"
+#~ msgstr "Foto Principal"
+
+#~ msgid "Set featured image"
+#~ msgstr "Establecer imagen destacada"
+
+#~ msgid "Remove featured image"
+#~ msgstr "Eliminar imagen destacada"
+
+#~ msgid "Use as featured image"
+#~ msgstr "Usar como imagen destacada"
+
+#~ msgid "Insert into item"
+#~ msgstr "Insertar en elemento"
+
+#~ msgid "Uploaded to this item"
+#~ msgstr "Subido a este artículo"
+
+#~ msgid "Items list"
+#~ msgstr "Una lista desplegable de categorías"
+
+#~ msgid "Items list navigation"
+#~ msgstr "Lista Elementos de navegación"
+
+#~ msgid "Filter items list"
+#~ msgstr "Filtrar Items"
+
+#~ msgid "rebuilder"
+#~ msgstr "reconstructor"
+
+#~ msgid "Reactive Builder Post Type"
+#~ msgstr "Constructor reactiva"
+
+#~ msgid "Show or Hide the Botombar Pagination"
+#~ msgstr "Mostrar u ocultar la paginación Botombar"

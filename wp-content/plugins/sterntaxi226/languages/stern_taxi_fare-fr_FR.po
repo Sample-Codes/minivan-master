@@ -1,0 +1,1341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: stern_taxi_fare\n"
+"POT-Creation-Date: 2016-03-23 17:41+0100\n"
+"PO-Revision-Date: 2016-03-23 17:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: classes/widget.php:11 classes/widget.php:14
+msgid "Stern taxi fare widget"
+msgstr "Widget Stern taxi fare "
+
+#: classes/widget.php:44
+msgid "Booking form"
+msgstr "Formulaire d'enregistrement"
+
+#: classes/widget.php:50
+msgid "Title:"
+msgstr "Titre"
+
+#: controller/stern_taxi_fare_admin.php:59
+msgid "Type Cars"
+msgstr "Type de véhicule"
+
+#: controller/stern_taxi_fare_admin.php:67 templates/admin/templateRule.php:13
+msgid "Pricing Rules"
+msgstr "Règles de prix"
+
+#: controller/stern_taxi_fare_admin.php:71
+msgid "List Addresses"
+msgstr "Liste d'addresses"
+
+#: controller/stern_taxi_fare_admin.php:77
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: controller/stern_taxi_fare_admin.php:271
+msgid "It should start by true or false"
+msgstr "Cela doit commencer par true ou false"
+
+#: controller/stern_taxi_fare_admin.php:283
+msgid "It should countains 8 Column"
+msgstr ""
+
+#: controller/stern_taxi_fare_admin.php:285
+msgid "It has more than 8 columns"
+msgstr ""
+
+#: controller/stern_taxi_fare_admin.php:287
+msgid "Type Car not correct"
+msgstr "Type Car est incorect"
+
+#: controller/stern_taxi_fare_admin.php:289
+msgid "Type Car ID not reconized:"
+msgstr "Type Car ID non reconnu :"
+
+#: controller/stern_taxi_fare_admin.php:292
+msgid "Price is not numeric:"
+msgstr "Prix n'est pas un nombre :"
+
+#: controller/stern_taxi_fare_admin.php:295
+#, fuzzy
+msgid "Type source is wrong:"
+msgstr "Type d'adresse de départ"
+
+#: controller/stern_taxi_fare_admin.php:298
+#, fuzzy
+msgid "Type destination is wrong:"
+msgstr "Type de destination"
+
+#: controller/stern_taxi_fare_admin.php:317
+msgid "Rows updated"
+msgstr "Ligne mise à jour"
+
+#: controller/stern_taxi_fare_ajax.php:63
+msgid "Address not found"
+msgstr ""
+
+#: controller/stern_taxi_fare_ajax.php:64
+msgid "Date round trip is wrong"
+msgstr "Date du retour est fausse"
+
+#: controller/stern_taxi_fare_ajax.php:65
+msgid "This is a fixe price!"
+msgstr "C'est un prix fixe !"
+
+#: controller/stern_taxi_fare_ajax_admin.php:252
+msgid "Car Name"
+msgstr "Nom du vehicule"
+
+#: controller/stern_taxi_fare_ajax_admin.php:253
+#, fuzzy
+msgid "Car Category"
+msgstr "Catégorie des véhicules"
+
+#: controller/stern_taxi_fare_ajax_admin.php:254
+msgid "Car Fare"
+msgstr "Prix par vehicule"
+
+#: controller/stern_taxi_fare_ajax_admin.php:255
+#, fuzzy
+msgid "Nb Seats"
+msgstr "Places"
+
+#: controller/stern_taxi_fare_ajax_admin.php:256
+#, fuzzy
+msgid "Nb Suitcases"
+msgstr "Nombre de bagages"
+
+#: controller/stern_taxi_fare_ajax_admin.php:257
+msgid "Fare per distance"
+msgstr "Prix par distance"
+
+#: controller/stern_taxi_fare_ajax_admin.php:258
+msgid "Fare per minute"
+msgstr "Prix par minute"
+
+#: controller/stern_taxi_fare_ajax_admin.php:259
+msgid "Fare per seat"
+msgstr "Prix par siège"
+
+#: controller/stern_taxi_fare_ajax_admin.php:260
+msgid "Fare per toll"
+msgstr "Prix par péage"
+
+#: controller/stern_taxi_fare_ajax_admin.php:261
+msgid "Nb Child Seats"
+msgstr "Nombre de sièges enfants"
+
+#: controller/stern_taxi_fare_ajax_admin.php:262
+msgid "Fare per child seat"
+msgstr "Prix par siège enfant"
+
+#: controller/stern_taxi_fare_ajax_admin.php:263
+#, fuzzy
+msgid "Minimum Course Fare"
+msgstr "Prix Minimum"
+
+#: controller/stern_taxi_fare_functions.php:14
+msgid "The URL of your WooCommerce shop's homepage (along with the Page ID)."
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:19
+msgid "The URL of your WooCommerce shop's cart (along with the page ID)."
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:24
+msgid "The URL of your WooCommerce shop's checkout (along with the page ID)."
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:29
+msgid ""
+"The URL of your WooCommerce shop's -My Account- Page (along with the page "
+"ID)."
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:52
+msgid "Page not set"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:63
+msgid "Page does not exist"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:65
+msgid "Install WooCommerce Pages"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:70
+#, php-format
+msgid "Page does not contain the shortcode: %s"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:110
+msgid "Show calendar field as an input"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:111
+msgid ""
+"Choose if this field will appear on the top or below in form. This option "
+"will impact others fields like calendar"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:115
+msgid "Show seat field as an input"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:116
+msgid "Only true when option \"Show calendar field as an input\" is true"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:120
+msgid "Enable booking calendar"
+msgstr "Activer le calendrier"
+
+#: controller/stern_taxi_fare_functions.php:121
+#, fuzzy
+msgid ""
+"This option will make the vehicule unavailable when the vehicle has already "
+"been booked"
+msgstr ""
+"Cette option va rendre le véhicule indisponible le véhicule lorsqu'il a déjà "
+"été réservé"
+
+#: controller/stern_taxi_fare_functions.php:767
+msgid "Plugin Not Active! Please contact author"
+msgstr "Plugin non activé. Merci de contacter l'autheur."
+
+#: controller/stern_taxi_fare_functions.php:770
+msgid "Stern Taxi Fare: Data info Saved!"
+msgstr "Stern Taxi Fare : Paramètre du module Stern taxi fare "
+
+#: controller/stern_taxi_fare_functions.php:773
+msgid "Stern Taxi Fare: Please Create at least 1 type car "
+msgstr "Stern Taxi Fare : Merci de créer au moins 1 véhicule"
+
+#: controller/stern_taxi_fare_functions.php:776
+msgid "Stern Taxi Fare: Please Create first a category "
+msgstr "Stern Taxi Fare : Créer d'abord une catégorie"
+
+#: controller/stern_taxi_fare_functions.php:779
+#, fuzzy
+msgid "Stern Taxi Fare: Please Enable correctly all API Google."
+msgstr "Stern Taxi Fare : Merci d'activer correctement l'API Google"
+
+#: controller/stern_taxi_fare_functions.php:782
+msgid "Stern Taxi Fare: Please select your country in backoffice"
+msgstr "Stern Taxi Fare :  Merci de choisir votre pays dans l'admin."
+
+#: controller/stern_taxi_fare_functions.php:785
+msgid "Stern Taxi Fare: Please create product \"stern product\""
+msgstr "Stern Taxi Fare : Merci de créer le produit 'stern  taxi fare'"
+
+#: controller/stern_taxi_fare_functions.php:788
+msgid "Stern Taxi Fare: Option allow_url_fopen is not allowed on your host"
+msgstr "Stern Taxi Fare : L'option allow_url_fopen n'est pas activé"
+
+#: controller/stern_taxi_fare_functions.php:791
+msgid "Stern Taxi Fare: Please install plugin WooCommerce"
+msgstr "Stern Taxi Fare : Merci d'installer WooCommerce"
+
+#: controller/stern_taxi_fare_functions.php:1137
+msgid "Row"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:1350
+msgid "of"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:1351
+msgid "First"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:1352
+msgid "Previous"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:1362
+msgid "Next"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions.php:1363
+msgid "Last"
+msgstr ""
+
+#: controller/stern_taxi_fare_functions_api.php:125
+#: templates/checkout/checkout.php:21 templates/checkout/checkoutAfter.php:19
+#: templates/checkout/checkoutEmail.php:18 templates/form/showRoundTrip.php:14
+#: templates/form/showRoundTrip.php:17
+msgid "Round Trip"
+msgstr "Aller/retour"
+
+#: controller/stern_taxi_fare_functions_api.php:125
+#: templates/checkout/checkout.php:21 templates/checkout/checkoutAfter.php:19
+#: templates/checkout/checkoutEmail.php:18
+msgid "One way"
+msgstr "Aller simple"
+
+#: stern_taxi_fare_settings.php:97
+msgid ""
+"Stern Taxi fare: Please Install WooCommerce First before activating this "
+"Plugin. You can download WooCommerce from <a href=\"http://wordpress.org/"
+"plugins/woocommerce/\">here</a>."
+msgstr ""
+
+#: templates/admin/TypeCars.php:17
+msgid "Category Cars"
+msgstr "Catégorie des véhicules"
+
+#: templates/admin/TypeCars.php:23
+msgid "Categories"
+msgstr "Catégories"
+
+#: templates/admin/TypeCars.php:33 templates/admin/templateRule.php:81
+msgid "Delete"
+msgstr "Supprimer"
+
+#: templates/admin/TypeCars.php:75
+msgid "Car category is mandatory"
+msgstr "La catégorie est obligatoire"
+
+#: templates/admin/TypeCars.php:82
+msgid "Create first a category"
+msgstr "Créer d'abord une catégorie"
+
+#: templates/admin/design.php:19
+msgid "Design Settings"
+msgstr "Parémètre Design"
+
+#: templates/admin/design.php:29
+msgid "Title"
+msgstr "Titre"
+
+#: templates/admin/design.php:30 templates/admin/design.php:35
+msgid "Leave empty to hide it"
+msgstr "Laisser vide pour le cacher"
+
+#: templates/admin/design.php:34
+msgid "Subtitle"
+msgstr "Sous titre"
+
+#: templates/admin/design.php:44
+msgid "Show dropdown typecar in form"
+msgstr "Afficher la liste déroulnate des vehicules dans le formulaire"
+
+#: templates/admin/design.php:45
+msgid "Dropdown typecar can be hide if for example there is only 1 car."
+msgstr ""
+
+#: templates/admin/design.php:49
+#, fuzzy
+msgid "Show Seat Inputs in form"
+msgstr "Afficher la carte dans le formulaire"
+
+#: templates/admin/design.php:50
+msgid "Dropdown seats Inputs"
+msgstr ""
+
+#: templates/admin/design.php:55
+msgid "Show calendar time & date side by side"
+msgstr ""
+"Voir la date et l'heure sur la même ligne dans le champs calendrier du "
+"formulaire"
+
+#: templates/admin/design.php:56
+msgid "It splits date and time in the form"
+msgstr "Cela divise la date et l'heure dans le formulaire"
+
+#: templates/admin/design.php:60
+msgid "Split calendar: date and time"
+msgstr "Diviser la date et les heures"
+
+#: templates/admin/design.php:61
+msgid "Only work when option \"Show calendar field as an input\" is true"
+msgstr ""
+
+#: templates/admin/design.php:65
+#, fuzzy
+msgid "Split calendar: Hours and minutes"
+msgstr "Diviser la date et les heures"
+
+#: templates/admin/design.php:66
+msgid "Only work when option \"Split calendar\" is true"
+msgstr ""
+
+#: templates/admin/design.php:70
+msgid "Use baby seats"
+msgstr "Utiliser les sièges pour enfants"
+
+#: templates/admin/design.php:72
+msgid ""
+"This option shows in form baby seat. It will integrated in formaula. It "
+"works only when walendar input and seat input are false"
+msgstr ""
+
+#: templates/admin/design.php:79
+msgid "Hide labels in form"
+msgstr "Chacher les labels dans le formulaire"
+
+#: templates/admin/design.php:97
+msgid "Show label in buttons"
+msgstr "Afficher les labels dans les bouttons"
+
+#: templates/admin/design.php:115
+msgid "Show Tooltips in form"
+msgstr "Voir les infobulles dans le formulaire"
+
+#: templates/admin/design.php:131
+msgid "Show Form in full row"
+msgstr ""
+
+#: templates/admin/design.php:147
+msgid "Show inputs in full row"
+msgstr ""
+
+#: templates/admin/design.php:164 templates/admin/design.php:165
+msgid "Position of price in result: Right or below"
+msgstr ""
+
+#: templates/admin/design.php:171
+msgid "Show estimated in result"
+msgstr "Voir le montant dans les résultats du formulaire"
+
+#: templates/admin/design.php:189
+msgid "Show distance in result"
+msgstr "Voir la distance dans les résultats du formulaire"
+
+#: templates/admin/design.php:207
+msgid "Show duration in result"
+msgstr "Voir le temps dans les résultats du formulaire"
+
+#: templates/admin/design.php:225
+msgid "Show Suitcases in result"
+msgstr "Voir le nombre de valises dans les résultats du formulaire"
+
+#: templates/admin/design.php:243
+msgid "Show tolls in results"
+msgstr "Voir le nombre de péages dans les résultats du formulaire"
+
+#: templates/admin/design.php:260
+msgid "Show Init Button"
+msgstr "Afficher le bouton 'reset'"
+
+#: templates/admin/design.php:278
+msgid "Use library bootstrap js"
+msgstr "Utiliser la bibliothèque bootstrap js"
+
+#: templates/admin/design.php:289
+#, fuzzy
+msgid "Use library bootstrap css"
+msgstr "Utiliser la bibliothèque bootstrap CSS"
+
+#: templates/admin/design.php:303
+msgid "Use Bootstrap-select. "
+msgstr "Utiliser l'option Bootstrap-select. "
+
+#: templates/admin/design.php:304
+msgid "See details "
+msgstr "Voir les détails"
+
+#: templates/admin/design.php:305
+msgid "here"
+msgstr "ici"
+
+#: templates/admin/design.php:306
+msgid ""
+"This feature is sometimes not fully compatible with all themes. It is also "
+"not responsive."
+msgstr ""
+
+#: templates/admin/design.php:313
+msgid "Show Pets informations in checkout"
+msgstr "Afficher le nombre d'animaux dans les résultats du formulaire"
+
+#: templates/admin/design.php:324
+msgid "Map Style"
+msgstr ""
+
+#: templates/admin/design.php:350
+#, fuzzy
+msgid "Show Markers in map"
+msgstr "Afficher la carte dans le formulaire"
+
+#: templates/admin/design.php:351
+msgid "You can hide or show markers in map result."
+msgstr ""
+
+#: templates/admin/design.php:358
+msgid "Show map in checkout"
+msgstr "Afficher la carte dans les résultats du formulaire"
+
+#: templates/admin/design.php:369
+msgid "Show map in form"
+msgstr "Afficher la carte dans le formulaire"
+
+#: templates/admin/design.php:382
+msgid "Open map automatically after checking price"
+msgstr "Ouvri la carte automatiquement après avoir calculé le prix."
+
+#: templates/admin/design.php:393
+msgid "Empty cart before using form"
+msgstr "Vider le panier avant d'utiser le formulaire"
+
+#: templates/admin/design.php:407
+msgid "Background color. "
+msgstr "COuleur d'arrière plan"
+
+#: templates/admin/design.php:408
+msgid "Example: #1ABC9C"
+msgstr "Exemple : #1ABC9C"
+
+#: templates/admin/design.php:413
+msgid "Background transparency"
+msgstr "Transparence de l'arrière plan"
+
+#: templates/admin/design.php:420
+msgid "Book button text"
+msgstr "Texte du bouton 'réserver'"
+
+#: templates/admin/design.php:421
+msgid "Example: Book now"
+msgstr "Exemple : Réserver"
+
+#: templates/admin/design.php:430
+msgid "Url_gif_loader"
+msgstr ""
+
+#: templates/admin/design.php:431
+msgid "Example: "
+msgstr "Exemple :"
+
+#: templates/admin/design.php:439 templates/admin/settings.php:711
+#: templates/admin/templateListAddress.php:73
+msgid "Save"
+msgstr "Enregistrer"
+
+#: templates/admin/settings.php:20
+msgid "SternTaxi Fare Settings"
+msgstr "Paramètre du module Stern taxi fare "
+
+#: templates/admin/settings.php:23
+msgid "Use shortcode: "
+msgstr "Utiliser le raccourci :"
+
+#: templates/admin/settings.php:23
+msgid "in a page or a post, or widget."
+msgstr ""
+
+#: templates/admin/settings.php:44
+msgid "Currency"
+msgstr "Devise"
+
+#: templates/admin/settings.php:50
+msgid "Currency position"
+msgstr "Position de la devise"
+
+#: templates/admin/settings.php:59
+msgid "Language"
+msgstr "Langage"
+
+#: templates/admin/settings.php:65
+msgid "Country to show"
+msgstr "Carte du pays"
+
+#: templates/admin/settings.php:320
+msgid "Unit Systems"
+msgstr "Systeme d'unité"
+
+#: templates/admin/settings.php:335
+msgid "Format Date"
+msgstr "Format de la date"
+
+#: templates/admin/settings.php:347
+msgid "Format Time"
+msgstr "Format des heures"
+
+#: templates/admin/settings.php:359
+msgid "First date available"
+msgstr "Première date disponible"
+
+#: templates/admin/settings.php:360 templates/admin/settings.php:365
+msgid "Hours"
+msgstr "Heures"
+
+#: templates/admin/settings.php:364
+msgid "First date available round trip"
+msgstr "Première date disponible pour la date de retour"
+
+#: templates/admin/settings.php:374
+msgid "Round trip"
+msgstr "Aller/retour"
+
+#: templates/admin/settings.php:392
+msgid "Address of destination button"
+msgstr ""
+
+#: templates/admin/settings.php:398
+msgid "Address of destination button2"
+msgstr ""
+
+#: templates/admin/settings.php:422
+msgid "Avoid highways in calculation"
+msgstr "Eviter les autoroutes dans le calcul"
+
+#: templates/admin/settings.php:440 templates/admin/settings.php:442
+msgid "Use traffic in Calculation"
+msgstr ""
+
+#: templates/admin/settings.php:468
+msgid "Api Google Key. Free "
+msgstr ""
+
+#: templates/admin/settings.php:469
+msgid "Example: AIzaSyD5UzF18OX_hlanu8LK_HIiqPybLHP9Dao"
+msgstr ""
+
+#: templates/admin/settings.php:480
+msgid "Max queries to API google"
+msgstr ""
+
+#: templates/admin/settings.php:488
+msgid "Time between each API google queries"
+msgstr ""
+
+#: templates/admin/settings.php:498
+msgid "Output information about allow_url_fopen: "
+msgstr ""
+
+#: templates/admin/settings.php:575
+msgid "Google Maps Embed API"
+msgstr ""
+
+#: templates/admin/settings.php:596
+msgid "Add Address between origin and destination"
+msgstr ""
+
+#: templates/admin/settings.php:598
+msgid ""
+"Thanks to a drand and drop, customer can addresses between pickup address "
+"and destination address"
+msgstr ""
+
+#: templates/admin/settings.php:608
+msgid "Envato Item Purchase Code"
+msgstr "Code d'achat Envato"
+
+#: templates/admin/settings.php:610
+msgid "Optional"
+msgstr "Optionel"
+
+#: templates/admin/settings.php:661
+msgid "Show demo Setting"
+msgstr ""
+
+#: templates/admin/settings.php:662
+msgid "Show demo"
+msgstr ""
+
+#: templates/admin/settings.php:671
+msgid "Debug mode"
+msgstr "Mode debug"
+
+#: templates/admin/settings.php:673
+msgid "Use Only when a debug is necessary"
+msgstr "A utiliser que si le débug est nécessaire"
+
+#: templates/admin/settings.php:683
+msgid "Actual Version: "
+msgstr "Version actuelle : "
+
+#: templates/admin/settings.php:688
+msgid "Latest version: "
+msgstr "Dernière version :"
+
+#: templates/admin/showListGlyphicon.php:12
+msgid "Source button"
+msgstr "Bouton de l'adresse initiale"
+
+#: templates/admin/showListGlyphicon.php:13
+msgid "Source Button"
+msgstr "Bouton de l'adresse initiale"
+
+#: templates/admin/showListGlyphicon.php:18
+#, fuzzy
+msgid "Destination button"
+msgstr "Adresse de destination"
+
+#: templates/admin/showListGlyphicon.php:19
+#, fuzzy
+msgid "Destination Button"
+msgstr "Adresse de destination"
+
+#: templates/admin/templateCalendar.php:22
+msgid "Show FullCalendar Front"
+msgstr "Afficher le plugin FullCalendar dans le front office"
+
+#: templates/admin/templateCalendar.php:23
+msgid "The calendar will appear and show the niches already booked vehicle."
+msgstr ""
+"Le calendrier va s'afficher et montrer les créneaux du véhicule déja réservé."
+
+#: templates/admin/templateCalendar.php:28
+msgid "Drag Event in full calendar"
+msgstr ""
+
+#: templates/admin/templateCalendar.php:30
+msgid ""
+"Thanks to a drand and drop, customer can book a ride in calendar. This "
+"option is not responsive!"
+msgstr ""
+
+#: templates/admin/templateCalendar.php:51
+msgid "Time To add after a ride"
+msgstr "Temps à ajouter après une course"
+
+#: templates/admin/templateCalendar.php:53
+msgid ""
+"In minutes. Example: 10. It is minimum time driver needs before another "
+"customer book a new trip"
+msgstr ""
+
+#: templates/admin/templateCalendar.php:61
+msgid "Granularity in minutes"
+msgstr ""
+
+#: templates/admin/templateCalendar.php:63
+msgid ""
+"In minutes. Example: 60. Granularity is the level of depth represented by "
+"the calendar."
+msgstr ""
+
+#: templates/admin/templateCalendar.php:178
+msgid "Please set a  Granularity to show calendar"
+msgstr ""
+
+#: templates/admin/templateFormula.php:14
+#: templates/admin/templateFormula.php:15
+#, fuzzy
+msgid "formula"
+msgstr "Formule de calcul du prix"
+
+#: templates/admin/templateFormula.php:16
+#, fuzzy
+msgid "Edit formula"
+msgstr "Editer l'information"
+
+#: templates/admin/templateFormula.php:17
+msgid "Update formula"
+msgstr ""
+
+#: templates/admin/templateFormula.php:18
+#, fuzzy
+msgid "Search formula"
+msgstr "Formule de calcul du prix"
+
+#: templates/admin/templateFormula.php:19 templates/admin/templateInfo.php:19
+msgid "Not Found"
+msgstr ""
+
+#: templates/admin/templateFormula.php:20 templates/admin/templateInfo.php:20
+msgid "Not found in Trash"
+msgstr ""
+
+#: templates/admin/templateFormula.php:64
+#, fuzzy
+msgid "carFare"
+msgstr "Prix par vehicule"
+
+#: templates/admin/templateFormula.php:65
+#, fuzzy
+msgid "minimum_course_fare"
+msgstr "Prix Minimum"
+
+#: templates/admin/templateFormula.php:66
+#, fuzzy
+msgid "fare_per_distance"
+msgstr "Prix par distance"
+
+#: templates/admin/templateFormula.php:67
+#, fuzzy
+msgid "fare_per_minute"
+msgstr "Prix par minute"
+
+#: templates/admin/templateFormula.php:68
+#, fuzzy
+msgid "fare_per_seat"
+msgstr "Prix par siège"
+
+#: templates/admin/templateFormula.php:69
+#, fuzzy
+msgid "fare_per_toll"
+msgstr "Prix par péage"
+
+#: templates/admin/templateFormula.php:70
+#, fuzzy
+msgid "fare_per_child_seat"
+msgstr "Prix par siège enfant"
+
+#: templates/admin/templateFormula.php:92
+#: templates/admin/templateFormula.php:100
+#: templates/admin/templateFormula.php:108
+#: templates/admin/templateFormula.php:116
+#: templates/admin/templateFormula.php:124
+#: templates/admin/templateFormula.php:133
+#: templates/admin/templateFormula.php:141
+#: templates/admin/templateInfo.php:102 templates/admin/templateInfo.php:110
+#: templates/admin/templateInfo.php:118 templates/admin/templateInfo.php:126
+#: templates/admin/templateInfo.php:133 templates/admin/templateInfo.php:142
+#: templates/admin/templateInfo.php:150 templates/admin/templateInfo.php:158
+#: templates/admin/templateInfo.php:168 templates/admin/templateInfo.php:176
+#: templates/admin/templateInfo.php:184
+msgid "Unknown"
+msgstr ""
+
+#: templates/admin/templateInfo.php:14 templates/admin/templateInfo.php:15
+msgid "info"
+msgstr ""
+
+#: templates/admin/templateInfo.php:16
+msgid "Edit Info"
+msgstr "Editer l'information"
+
+#: templates/admin/templateInfo.php:17
+msgid "Update Info"
+msgstr ""
+
+#: templates/admin/templateInfo.php:18
+msgid "Search Info"
+msgstr ""
+
+#: templates/admin/templateInfo.php:64
+msgid "siteurl"
+msgstr ""
+
+#: templates/admin/templateInfo.php:65
+msgid "admin_email"
+msgstr ""
+
+#: templates/admin/templateInfo.php:66
+msgid "version_plugin"
+msgstr ""
+
+#: templates/admin/templateInfo.php:67
+msgid "buyer"
+msgstr ""
+
+#: templates/admin/templateInfo.php:68
+msgid "locale"
+msgstr ""
+
+#: templates/admin/templateInfo.php:69
+msgid "purchase_code"
+msgstr ""
+
+#: templates/admin/templateInfo.php:70
+msgid "google_api"
+msgstr ""
+
+#: templates/admin/templateInfo.php:74
+msgid "nbInstallation"
+msgstr ""
+
+#: templates/admin/templateInfo.php:75
+msgid "customer_orders"
+msgstr ""
+
+#: templates/admin/templateInfo.php:76
+msgid "dateFirstInstallation"
+msgstr ""
+
+#: templates/admin/templateListAddress.php:12
+msgid "List Address in dropdown"
+msgstr ""
+
+#: templates/admin/templateListAddress.php:19
+msgid "Use list address for Pick up address"
+msgstr ""
+
+#: templates/admin/templateListAddress.php:20
+msgid ""
+"This option will show a dropdwon instead of a google input for Pick up "
+"address"
+msgstr ""
+
+#: templates/admin/templateListAddress.php:46
+msgid "Use list address for destination address"
+msgstr ""
+
+#: templates/admin/templateListAddress.php:47
+msgid ""
+"This option will show a dropdwon instead of a google input for destination "
+"address"
+msgstr ""
+
+#: templates/admin/templateRule.php:14
+msgid ""
+"Work only when option \"Add Address between origin and destination\" is false"
+msgstr ""
+
+#: templates/admin/templateRule.php:20
+msgid "Include Seat Fare in pricing rules"
+msgstr "Inclure le prix des sièges dans les règles de prix"
+
+#: templates/admin/templateRule.php:71
+msgid "Is active"
+msgstr "Est actif"
+
+#: templates/admin/templateRule.php:72
+msgid "Name Rule"
+msgstr "Nom de la règle"
+
+#: templates/admin/templateRule.php:73
+msgid "Type source"
+msgstr "Type d'adresse de départ"
+
+#: templates/admin/templateRule.php:74
+msgid "Source value"
+msgstr "Adresse de départ"
+
+#: templates/admin/templateRule.php:75
+msgid "Source City"
+msgstr "Ville de départ"
+
+#: templates/admin/templateRule.php:76
+msgid "Type Destination"
+msgstr "Type de destination"
+
+#: templates/admin/templateRule.php:77
+#, fuzzy
+msgid "Destination Value"
+msgstr "Adresse de destination"
+
+#: templates/admin/templateRule.php:78
+msgid "Destination City"
+msgstr "Ville de destination"
+
+#: templates/admin/templateRule.php:79
+msgid "Type Car"
+msgstr "Type de véhicule"
+
+#: templates/admin/templateRule.php:80
+msgid "Price for this rule"
+msgstr "Pric de cette règle"
+
+#: templates/admin/templateRule.php:183
+msgid "Bulk upload"
+msgstr "Chargement en masse"
+
+#: templates/admin/templateRule.php:186
+msgid "Use tab to split each colums. 1 rule per row."
+msgstr "Utiliser la tabulation entre chaque colonne. 1 règle par ligne."
+
+#: templates/admin/templateRule.php:188
+msgid "Example:"
+msgstr "Exemple :"
+
+#: templates/admin/templateRule.php:191
+msgid "Price is 99 for all Type Cars"
+msgstr "Le prix est 99 pour tous les types de chéicules"
+
+#: templates/admin/templateRule.php:194
+msgid "Price is 399 for all typeCarID = 131"
+msgstr "Le prix est 300 pour le type de véhicule avec l'ID = 131"
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:5
+msgid "Invoice to"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:7
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:11
+msgid "Ship to"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:22
+msgid "Invoice"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:25
+#, php-format
+msgid "Order Number: %s"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:26
+#, php-format
+msgid "Order Date: %s"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:53
+#, fuzzy
+msgid "Description"
+msgstr "Adresse de destination"
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:57
+msgid "SKU"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:61
+msgid "Cost"
+msgstr "Coût"
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:63
+msgid "Qty"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:69
+msgid "VAT"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:80
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:154
+msgid "Total"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:94
+msgid "Discount"
+msgstr "Réduction"
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:102
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:118
+msgid "Shipping"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:110
+#, fuzzy
+msgid "Subtotal"
+msgstr "Sous titre"
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:129
+msgid "Fee"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:161
+msgid "Refunded"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:298
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:303
+msgid "Customer note"
+msgstr ""
+
+#: templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/footer.php:18
+#, php-format
+msgid "%s of %s"
+msgstr ""
+
+#: templates/checkout/checkout.php:35 templates/checkout/checkoutAfter.php:28
+msgid "Your trip"
+msgstr "Votre voyage"
+
+#: templates/checkout/checkout.php:39
+msgid "Number of Pets"
+msgstr "Nombre d'animaux"
+
+#: templates/checkout/checkout.php:48 templates/checkout/checkoutAfter.php:35
+msgid "Pickup Time"
+msgstr "Heure"
+
+#: templates/checkout/checkout.php:56 templates/checkout/checkoutAfter.php:43
+msgid "Distance"
+msgstr "Distance"
+
+#: templates/checkout/checkout.php:59 templates/checkout/checkoutAfter.php:47
+msgid "Duration"
+msgstr "Temps estimé"
+
+#: templates/checkout/checkout.php:64 templates/checkout/checkoutAfter.php:52
+msgid "Car type"
+msgstr "Type de vehicule"
+
+#: templates/checkout/checkout.php:70 templates/checkout/checkoutAfter.php:57
+msgid "Number of Tolls"
+msgstr "Nombre de péages"
+
+#: templates/checkout/checkout.php:75 templates/checkout/checkoutAfter.php:62
+#: templates/form/showSeatInputs.php:15 templates/form/showSeatInputs.php:21
+msgid "Seats"
+msgstr "Places"
+
+#: templates/checkout/checkout.php:81 templates/checkout/checkoutAfter.php:67
+#, fuzzy
+msgid "Suitcases"
+msgstr "Nombre de bagages"
+
+#: templates/checkout/checkout.php:87 templates/checkout/checkoutAfter.php:79
+msgid "Source"
+msgstr "Adresse initiale"
+
+#: templates/checkout/checkout.php:92 templates/checkout/checkoutAfter.php:84
+#: templates/form/showInputAddress.php:55
+#: templates/form/showInputAddress.php:58
+msgid "Destination"
+msgstr "Adresse de destination"
+
+#: templates/checkout/checkout.php:96 templates/checkout/checkoutAfter.php:88
+msgid "Round trip?"
+msgstr "Aller/retour"
+
+#: templates/checkout/checkout.php:101 templates/checkout/checkoutAfter.php:93
+msgid "Pickup Time for Round Trip"
+msgstr "Date du retour"
+
+#: templates/checkout/checkoutAfter.php:73
+msgid "Number Of Pets"
+msgstr "Nombre d'animaux"
+
+#: templates/checkout/checkoutEmail.php:22
+msgid "Trip"
+msgstr "Voyage"
+
+#: templates/checkout/checkoutEmail.php:27 templates/form/showResults.php:50
+msgid "Distance: "
+msgstr "Distance : "
+
+#: templates/checkout/checkoutEmail.php:35
+#, fuzzy
+msgid "duration: "
+msgstr "Temps estimé : "
+
+#: templates/checkout/checkoutEmail.php:42
+#, fuzzy
+msgid "cartypes: "
+msgstr "Type vehicule"
+
+#: templates/checkout/checkoutEmail.php:49
+#, fuzzy
+msgid "source: "
+msgstr "Adresse initiale"
+
+#: templates/checkout/checkoutEmail.php:56
+#, fuzzy
+msgid "destination: "
+msgstr "Adresse de destination"
+
+#: templates/checkout/checkoutEmail.php:63
+#, fuzzy
+msgid "Seats: "
+msgstr "Places"
+
+#: templates/checkout/checkoutEmail.php:71
+#, fuzzy
+msgid "Suitcases: "
+msgstr "Nombre de bagages : "
+
+#: templates/checkout/checkoutEmail.php:80
+#, fuzzy
+msgid "dateTimePickUp: "
+msgstr "Date de départ"
+
+#: templates/checkout/checkoutEmail.php:85
+msgid "nbToll: "
+msgstr "Nombre de Péages"
+
+#: templates/checkout/checkoutEmail.php:90
+msgid "Number Of Pets: "
+msgstr "Nombre d'animaux"
+
+#: templates/checkout/checkoutEmail.php:94
+msgid "Round trip: "
+msgstr "Aller/retour"
+
+#: templates/checkout/checkoutEmail.php:98
+msgid "Date Round Trip: "
+msgstr "Date du retour"
+
+#: templates/form/showBabySeatInputs.php:9
+#: templates/form/showBabySeatInputs.php:15
+msgid "Baby Seats"
+msgstr "Places pour enfants"
+
+#: templates/form/showButtonCheckOut.php:5
+msgid "Book!"
+msgstr "Réserver!"
+
+#: templates/form/showButtons.php:16 templates/form/showButtons.php:37
+#: templates/form/showButtons.php:42
+msgid "Show Map"
+msgstr "Voir la carte"
+
+#: templates/form/showButtons.php:27 templates/form/showButtons.php:30
+msgid "Reset Form"
+msgstr "Initialiser"
+
+#: templates/form/showButtons.php:46 templates/form/showButtons.php:51
+msgid "Check Price"
+msgstr "Calculer le prix"
+
+#: templates/form/showDateTimeInput.php:21
+#: templates/form/showDateTimeInput.php:23
+msgid "Date Picking for round trip"
+msgstr "Date du retour"
+
+#: templates/form/showDateTimeInput.php:22
+#: templates/form/showDateTimeInput.php:24
+msgid "Time Picking for round trip"
+msgstr "Heure du retour"
+
+#: templates/form/showDateTimeInput.php:31
+#: templates/form/showDateTimeInput.php:66
+msgid "am/pm"
+msgstr "am/pm"
+
+#: templates/form/showDateTimeInput.php:37
+#: templates/form/showDateTimeInput.php:74
+#, fuzzy
+msgid "Hour"
+msgstr "Heures"
+
+#: templates/form/showDateTimeInput.php:38
+#: templates/form/showDateTimeInput.php:75
+msgid "Min"
+msgstr "Min"
+
+#: templates/form/showDateTimeInput.php:45
+#: templates/form/showDateTimeInput.php:46
+msgid "DateTime Picking for round trip"
+msgstr "Date du retour"
+
+#: templates/form/showDateTimeInput.php:56
+#: templates/form/showDateTimeInput.php:58
+msgid "Date Picking"
+msgstr "Date de départ"
+
+#: templates/form/showDateTimeInput.php:57
+#: templates/form/showDateTimeInput.php:59
+#, fuzzy
+msgid "Time Picking"
+msgstr "Heure"
+
+#: templates/form/showDateTimeInput.php:83
+#: templates/form/showDateTimeInput.php:84
+msgid "DateTime Picking"
+msgstr "Date et heure du départ"
+
+#: templates/form/showForm1.php:137
+msgid "Great! "
+msgstr "Excellent!"
+
+#: templates/form/showForm1.php:138
+msgid "This is a fixed price ! "
+msgstr "C'est un prix fixe !"
+
+#: templates/form/showForm1.php:143
+msgid "Please select a date greater than "
+msgstr "Merci de selectionenr une date supérieure à : "
+
+#: templates/form/showForm1.php:148
+msgid "Error!"
+msgstr "Erreur!"
+
+#: templates/form/showForm1.php:156
+msgid "Great!"
+msgstr "Excellent!"
+
+#: templates/form/showInputAddress.php:25
+#: templates/form/showInputAddress.php:26
+msgid "Pick Up Address"
+msgstr "Adresse de départ"
+
+#: templates/form/showInputAddress.php:27
+msgid "Example airport"
+msgstr "Exemple aéroport"
+
+#: templates/form/showInputAddress.php:56
+msgid "Example city"
+msgstr "Exemple ville"
+
+#: templates/form/showInputAddress.php:108
+msgid "Find Me!"
+msgstr "Localise-moi!"
+
+#: templates/form/showResults.php:60
+msgid "Tolls: "
+msgstr "Péages : "
+
+#: templates/form/showResults.php:70
+msgid "Duration: "
+msgstr "Temps estimé : "
+
+#: templates/form/showResults.php:81
+msgid "Max suitcases: "
+msgstr "Nombre de bagages : "
+
+#: templates/form/showResults.php:91
+msgid "Fare: "
+msgstr "Coût"
+
+#: templates/form/showRoundTrip.php:18
+msgid "One Way"
+msgstr "Aller simple"
+
+#: templates/form/showRoundTrip.php:19
+msgid "Return"
+msgstr "Aller Retour"
+
+#: templates/form/showTypeCar.php:28
+msgid "Car Type"
+msgstr "Type de vehicule"
+
+#: templates/form/showTypeCar.php:32
+msgid "No cars available"
+msgstr "Pas de véhicules disponibles"
+
+#~ msgid "Estimated Fare: "
+#~ msgstr "Prix : "
+
+#~ msgid "Use DateTimePicker for time"
+#~ msgstr "Utiliser DateTimePicker pour afficher les heures"
+
+#, fuzzy
+#~ msgid "car_seats: "
+#~ msgstr "Places disponibles"
+
+#~ msgid "Result"
+#~ msgstr "Résultat"
+
+#~ msgid "Use stern_taxi_fare_lib_bootstrap_js "
+#~ msgstr "Utiliser la bibliothèque bootstrap javascript"
+
+#~ msgid "duration"
+#~ msgstr "Temps estimé"
+
+#~ msgid "Drop Off Address"
+#~ msgstr "Adresse de destination"
+
+#~ msgid "Please Try again"
+#~ msgstr "Merci de réessayer"
+
+#~ msgid "stern_taxi_fare_round_trip"
+#~ msgstr "Aller/retour"
+
+#~ msgid "dateTimePickUpRoundTrip"
+#~ msgstr "Date du retour"
+
+#~ msgid "Estimated Fare"
+#~ msgstr "Prix estimé"
+
+#~ msgid "Tolls"
+#~ msgstr "Péages"
+
+#~ msgid "estimated_fare"
+#~ msgstr "Prix estimé"
+
+#~ msgid "Taxi Type:"
+#~ msgstr "Type véhicule"
+
+#~ msgid "Submit"
+#~ msgstr "Envoyer"

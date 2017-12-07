@@ -1,0 +1,44 @@
+.taglists {
+  position: relative;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin: 0;
+
+      &.active-tag {
+        a.tag-link {
+          background: #fafafa;
+          border-color: #999;
+          &:hover {
+            background: #f8f8f8;
+            border-color: #999;
+          }
+        }
+      }
+
+      a.tag-link {
+        margin-right: 7px;
+        color: #333;
+        border: 1px solid #ddd;
+        padding: 6px 10px;
+        display: block;
+        margin-bottom: 7px;
+        font-size: 12px;
+        border-radius: 3px;
+        text-decoration: none;
+        transition: all .3s ease;
+        background: #fff;
+
+        &:hover {
+          background: #fafafa;
+          border-color: #999;
+        }
+      }
+    }
+  }
+}

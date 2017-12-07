@@ -1,0 +1,144 @@
+.sidebar-container {
+  position: relative;
+  width: 100%;
+  background: #FBFAFA;
+  padding: 30px 14px 30px 20px;
+  display: inline-block;
+}
+
+
+.single-block .title-content-block {
+  position: relative;
+  padding: 20px 20px;
+  border: 1px solid #ddd;
+  border-radius: 3px 3px 0 0;
+  border-top: 0;
+  margin-bottom: 15px;
+
+  .blocktype-heading {
+    padding: 0;
+  }
+}
+
+.search-field-content {
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.search-field-content .selectbox-content {
+  margin-bottom: 45px;
+}
+
+.single-block .search-field-content {
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+  .single-component {
+    margin-bottom: 0px;
+    padding: 25px 20px 20px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-radius: 0 0 3px 3px;
+  }
+}
+
+
+
+.title-content {
+  position: relative;
+  margin-bottom: 20px;
+  &:first-child {
+    margin-top: 0;
+  }
+
+  .sidebar-title{
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 3px;
+    width: 100%;
+    //padding-right: 25px;
+    position: relative;
+    display: block;
+    transition: all .3s ease;
+    &.default {
+      a {
+        position: absolute;
+        top: 0;
+      }
+    }
+
+    a {
+      transition: all .3s ease;
+      top: -3px;
+      position: relative;
+      width: 100%;
+      border-bottom: 0;
+      text-decoration: none;
+      cursor: pointer;
+      color: #333;
+      line-height: 19px;
+      text-align: left;
+      span {
+        display: block;
+      }
+      &.active {
+        &:after {
+          content: "\f077";
+          font-family: 'FontAwesome';
+          font-size: 11px;
+        }
+      }
+      &:after {
+        content: "\f078";
+        font-family: 'FontAwesome';
+        font-size: 11px;
+        transition: all .3s ease;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+
+  .sidebar-subtitle {
+    color :#999;
+    font-size: 13px;
+    margin: 0;
+  }
+}
+
+
+
+.single-block .title-content {
+  position: relative;
+  padding: 20px 20px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  margin-bottom: 0;
+}
+
+.preview-block .title-content {
+  position: relative;
+  padding: 20px 20px;
+  border: 1px solid #ddd;
+  background: #F7F7F7;
+  margin-bottom: 0;
+}
+
+
+.preview-block .search-field-content {
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+  .single-component {
+    margin-bottom: 0px;
+    padding: 25px 20px 20px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-radius: 0 0 3px 3px;
+  }
+}

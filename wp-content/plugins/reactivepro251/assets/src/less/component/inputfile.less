@@ -1,0 +1,42 @@
+.reactive-file-type {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    height: 35px;
+    width: 100%;
+    z-index: 99;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  button {
+    position: relative;
+    z-index: -999;
+  }
+
+  &:hover {
+    .btn-reactive {
+      background: darken(@primary-color, 10%);
+      color: #fff;
+    }
+  }
+
+}
+
+.btn-reactive {
+  background: @primary-color;
+  color: #fff;
+  transition: all .3s ease;
+  border-radius: 2px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: darken(@primary-color, 10%);
+    color: #fff;
+  }
+}

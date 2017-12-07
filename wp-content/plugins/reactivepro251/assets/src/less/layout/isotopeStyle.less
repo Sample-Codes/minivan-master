@@ -1,0 +1,108 @@
+* { box-sizing: border-box; }
+
+
+.grid {
+  border: 1px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .rq-element-item ---- */
+
+.rq-element-item {
+  position: relative;
+  float: left;
+  padding: 10px;
+  color: #262524;
+  overflow: hidden;
+  text-align: center;
+}
+.rq-element-item img {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.rq-element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.rq-grid-normal {
+  &:hover {
+    .rq-isotopegrid-image {
+      .rq-image-overlay {
+        opacity: 1;
+        visible: visible;
+      }
+    }
+  }
+}
+
+.rq-grid-container {
+  .rq-isotope-row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+
+
+.rq-isotopegrid-image {
+  position: relative;
+  img {
+    display: block;
+  }
+  .rq-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visible: hidden;
+    transition: all .3s ease;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, .3);
+    z-index: 999;
+    i {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -20px;
+      margin-top: -20px;
+      .link-icon-hover();
+    }
+  }
+}
+
+
+
+.rq-isotope-filters-content {
+  position: relative;
+  width: 100%;
+  display: block;
+  clear: both;
+  padding: 0 0 30px;
+  .rq-filter-link {
+    cursor: pointer;
+    position: relative;
+    padding: 6px 15px;
+    border: 1px solid #ccc;
+    transition: all .3s ease;
+    color: #999;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    &:hover,
+    &.is-checked {
+      color: #333;
+      border-color: #333;
+    }
+
+  }
+}

@@ -1,0 +1,50 @@
+.rq-image-hover-container-mixin() {
+  position: relative;
+  transition: transform .6s ease;
+  transform: sclae(1);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  z-index: 70;
+  &.rq-absolute-container {
+    &.dark-overlay {
+      .img-overlay {
+        background: rgba(0, 0, 0, .67);
+        opacity: 0;
+        :hover& {
+          opacity: 1;
+          background: rgba(0, 0, 0, .67);
+        }
+      }
+      &.light-overlay {
+        .img-overlay {
+          background: rgba(0, 0, 0, 0);
+          opacity: 0;
+          i {
+            .link-icon-hover();
+          }
+          :hover& {
+            opacity: 1;
+            background: rgba(0, 0, 0, .5);
+          }
+        }
+      }
+    }
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 85;
+    .img-overlay {
+      background: rgba(66, 64, 64, .67);
+      opacity: 1;
+    }
+    :hover& {
+      .img-overlay {
+        background: rgba(66, 64,64 , .40);
+      }
+    }
+  }
+}

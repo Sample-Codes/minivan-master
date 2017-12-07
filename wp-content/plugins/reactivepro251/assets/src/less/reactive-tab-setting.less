@@ -1,0 +1,185 @@
+.reactive-tab-setting {
+  position: relative;
+  width: 100%;
+
+  .nav-tabs {
+    width: 100%;
+    border-bottom: 0;
+    margin-left: 0;
+    background: #1b1b1b;
+    border-bottom: 2px solid #FFBD21;
+    padding-left: 50px;
+
+     @media (max-width: 768px) {
+      width: 100%;
+      float: none;
+      margin-left: 0;
+    }
+
+    li {
+      margin-left: 0;
+      margin-right: 0;
+      border-bottom: 0;
+      &.active {
+        a {
+          outline: 0;
+          border: 0;
+          color:#333;
+          border-left: 0;
+          border-right: 0;
+          border-bottom: 0;
+          background: #FFBD21;
+
+          &:hover,
+          &:focus {
+            background: #FFBD21;
+            color: #333;
+
+          }
+        }
+      }
+
+      a {
+        border-radius: 0;
+        border: 0;
+        padding: 15px 15px;
+        margin-right: 0;
+        border-right: 0;
+        border-left: 0;
+        border-bottom: 0;
+        color: #909090;
+        font-weight: 500;
+        outline: 0;
+        transition: all .3s ease;
+        text-decoration: none;
+
+        &:hover {
+          background: transparent;
+          border-bottom: 0;
+          color: #888888;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    border: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 320px;
+    overflow: auto;
+    input[type="text"].reactive-input {
+      height: 38px;
+      color: #fff;
+      background: transparent;
+      border-color: #4d4c4c;
+      &:focus,
+      &:active {
+        border-color: #999;
+      }
+    }
+    .Select, .Select div, .Select input,  {
+      background: #1b1b1b;
+      border-color: #4d4c4c;
+      color: #ddd;
+
+    }
+    .has-value.Select--single > .Select-control > .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single > .Select-control > .Select-value .Select-value-label {
+      color: #ddd;
+
+    }
+    .has-value:not(.Select--multi) > .Select-control > .Select-value .Select-value-label,
+    .has-value.is-pseudo-focused:not(.Select--multi) > .Select-control > .Select-value .Select-value-label {
+      color: #ddd;
+    }
+    .Select-value-label {
+      color: #ddd;
+    }
+    .Select-option.is-focused {
+      background: #333;
+    }
+    pre {
+      background: #fff;
+      border-color: #eeeeee;
+    }
+    h5 {
+      margin-top: 0;
+    }
+    pre {
+      span {
+        position: relative;
+        top: 5px;
+      }
+    }
+    .tab-pane {
+      h5 {
+        color: #454545;
+        font-size: 14px;
+        display: block;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+      .checkbox-input-content .single-input.image-select label {
+        border: 1px solid #eeeeee;
+      }
+    }
+
+    .grid-choose-option {
+      margin: 0;
+      padding: 0;
+      // padding-top: 20px;
+      padding-top: 0px;
+      background: transparent;
+      &.no-padding {
+        padding-top: 0;
+      }
+      .gird-value-count {
+        margin-bottom: 20px;
+      }
+
+      .caption {
+        //padding-top: 7px;
+      }
+      p {
+        margin-top: 0;
+        button {
+          background: #f2f2f2;
+          border-radius: 3px;
+          color: #333;
+          &:hover {
+            background: #ffbd21;
+          }
+        }
+      }
+    }
+  }
+  .grid-choose-option.from-search-panel .choose-grid-button {
+    margin-left: 0;
+  }
+  .gird-value-count {
+    border: 1px solid #4d4c4c;
+  }
+}
+
+
+
+.post-type-choose-grid-option {
+  margin-bottom: 10px;
+  p {
+    margin-bottom: 0;
+    padding-top: 5px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+.Select-control  {
+  margin-bottom: 15px;
+}

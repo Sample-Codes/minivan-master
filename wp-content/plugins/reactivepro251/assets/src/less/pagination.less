@@ -1,0 +1,95 @@
+// 分页组件样式
+#rq-pagination {
+  height: 0px !important; 
+  padding-top: 0px !important; 
+  padding-right: 200px;
+  margin-bottom: 0px !important;
+}
+#rq-pagination ul {
+    list-style:none;
+    display:inline-block;
+    float:right;
+    padding:0;
+    margin:0;
+}
+#rq-pagination ul li{
+    display:inline-block;
+    width:32px;
+    height:32px;
+    line-height:32px;
+    text-align:center;
+    border:1px solid #dadada;
+    border-radius:3px;
+    color:#999;
+    margin-right:4px;
+    cursor:pointer;
+    margin-left: 0;
+    transition: all .3s ease;
+    &:hover {
+      background: #f3f3f3;
+      color: #333;
+    }
+}
+#rq-pagination .paginate-current {
+    background-color:#f3f3f3;
+    color:#333;
+    border:1px solid #dadada;
+}
+#rq-pagination .paginate-dot {
+    border:none;
+    cursor:default;
+}
+#rq-pagination .next-page,#rq-pagination .prev-page {
+    display:inline-block;
+    float:right;
+    width:32px;
+    height:32px;
+    line-height:32px;
+    text-align:center;
+    border:1px solid #dadada;
+    cursor:pointer;
+    color:#999;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    border-radius: 3px;
+    span {
+      display: none;
+    }
+    transition: all .3s ease;
+    &:hover {
+      background: #f5f5f5;
+    }
+}
+#rq-pagination .next-page i,#rq-pagination .prev-page i{
+    display:inline-block;
+    border:5px solid transparent;
+}
+#rq-pagination .next-page i{
+    border-left:5px solid #dadada;
+    margin-left:6px;
+}
+#rq-pagination .prev-page {
+    margin-right:8px;
+}
+#rq-pagination .next-page {
+  margin-left: 5px;
+}
+#rq-pagination .prev-page i{
+    border-right:5px solid #dadada;
+    margin-right:6px;
+}
+#rq-pagination .unavailable {
+    cursor:default;
+    color:#eee;
+    border-color: #eee;
+    &:hover {
+      background: transparent;
+    }
+}
+#rq-pagination .unavailable.next-page i{
+    border-left:5px solid #eee;
+}
+#rq-pagination .unavailable.prev-page i{
+    border-right:5px solid #eee;
+}

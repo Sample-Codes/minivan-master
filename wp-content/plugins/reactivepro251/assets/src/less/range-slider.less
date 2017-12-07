@@ -1,0 +1,108 @@
+input[type=range].slider {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 8.35px 0;
+}
+input[type=range].slider:focus {
+  outline: none;
+}
+input[type=range].slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  box-shadow: 0;
+  background: #4a90e2;
+  border-radius: 25px;
+  border: 0;
+}
+input[type=range].slider::-webkit-slider-thumb {
+  box-shadow: 1.1px 1.1px 1.2px #4a90e2, 0px 0px 4.1px #4a90e2;
+  border: 5px solid #2C4F77;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.65px;
+}
+input[type=range].slider:focus::-webkit-slider-runnable-track {
+  background: #4a90e2;
+}
+input[type=range].slider::-moz-range-track {
+  width: 100%;
+  height: 13.3px;
+  cursor: pointer;
+  box-shadow: 1.4px 1.4px 1.7px #ffb2df, 0px 0px 1.4px #ffccea;
+  background: #ff91d8;
+  border-radius: 25px;
+  border: 2.3px solid #dbd58f;
+}
+input[type=range].slider::-moz-range-thumb {
+  box-shadow: 4.1px 4.1px 7.2px #27aaff, 0px 0px 4.1px #41b4ff;
+  border: 5px solid #ffcdff;
+  height: 30px;
+  width: 30px;
+  border-radius: 12px;
+  background: #ffff7d;
+  cursor: pointer;
+}
+input[type=range].slider::-ms-track {
+  width: 100%;
+  height: 13.3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range].slider::-ms-fill-lower {
+  background: #ff68ca;
+  border: 2.3px solid #dbd58f;
+  border-radius: 50px;
+  box-shadow: 1.4px 1.4px 1.7px #ffb2df, 0px 0px 1.4px #ffccea;
+}
+input[type=range].slider::-ms-fill-upper {
+  background: #ff91d8;
+  border: 2.3px solid #dbd58f;
+  border-radius: 50px;
+  box-shadow: 1.4px 1.4px 1.7px #ffb2df, 0px 0px 1.4px #ffccea;
+}
+input[type=range].slider::-ms-thumb {
+  box-shadow: 4.1px 4.1px 7.2px #27aaff, 0px 0px 4.1px #41b4ff;
+  border: 5px solid #ffcdff;
+  height: 30px;
+  width: 30px;
+  border-radius: 12px;
+  background: #ffff7d;
+  cursor: pointer;
+  height: 13.3px;
+}
+input[type=range].slider:focus::-ms-fill-lower {
+  background: #ff91d8;
+}
+input[type=range].slider:focus::-ms-fill-upper {
+  background: #ffbae6;
+}
+
+.bar-chart {
+  height:50px;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  display:flex;
+  align-items: flex-end;
+
+  &__bar {
+    background:rgba(156,162,153,0.5);
+    flex:1;
+
+    &.is-out-of-bounds {
+      background:rgba(156,162,153,0.3);
+    }
+  }
+}
+.InputRange {
+    cursor: pointer;
+    height: 0rem;
+    position: relative;
+    width: 100%;
+}

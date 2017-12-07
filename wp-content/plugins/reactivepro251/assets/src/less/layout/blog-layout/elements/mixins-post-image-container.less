@@ -1,0 +1,76 @@
+.rq-post-image-container-mixin() {
+  height: 350px;
+  @media(max-width: 520px) {
+    height: 250px;
+  }
+  border-radius: 0;
+  width: 100%;
+  border-radius: 3px;
+  .img-post-title-content {
+    padding: 50px;
+    position: relative;
+    z-index: 94;
+    width: 100%;
+    bottom: -100%;
+    transition: all .4s ease;
+    &.with-border-radius {
+      bottom: 0;
+      h2 {
+        position: relative;
+        top: -10px;
+        opacity: 0;
+        transition: all .4s ease;
+
+      }
+      span {
+        position: relative;
+        top: 10px;
+        opacity: 0;
+        transition: all .4s ease;
+
+      }
+      :hover& {
+        h2 {
+          top: 0;
+          opacity: 1;
+        }
+        span {
+          top: 0;
+          opacity: 1;
+        }
+      }
+    }
+    @media(max-width: 991px) {
+      background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.1) 11%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+      background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.1) 11%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+      background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.1) 11%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+      background: linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.1) 11%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+      bottom: 0;
+    }
+  }
+
+  h2 {
+    position: relative;
+    z-index: 99;
+    font-size: 19px;
+    line-height: 25px;
+    width :100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: left;
+    a {
+      color: #fff;
+    }
+  }
+  .post-date {
+    position: relative;
+    z-index: 99;
+    display: block;
+    width :100%;
+    text-align: left;
+    color: #fff;
+  }
+}

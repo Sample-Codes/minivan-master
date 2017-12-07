@@ -1,0 +1,53 @@
+.producthightlight-section {
+  width: 100%;
+  position: relative;
+  background: #f3f3f3;
+  height: 161px;
+  text-align: center;
+  overflow: hidden;
+
+
+  a {
+    display: block;
+    padding: 15px 25px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: all .3s ease;
+
+    &:hover {
+      .product-title {
+        color: #333;
+      }
+
+      img {
+        transform: scale(1.05);
+      }
+
+    }
+
+    .product-title {
+      position: absolute;
+      left: 25px;
+      font-size: 18px;
+      color: #999;
+      text-align: left;
+      transition: all .3s ease;
+
+
+      strong {
+        display: block;
+        font-size: 25px;
+        color: #666;
+        font-weight: bold;
+
+      }
+    }
+
+  }
+
+  img {
+    height: 100%;
+    transition: all .4s ease;
+  }
+}

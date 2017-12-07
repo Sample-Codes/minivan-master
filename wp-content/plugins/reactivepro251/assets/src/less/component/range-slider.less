@@ -1,0 +1,88 @@
+.InputRange-slider {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: @color-violet;
+  border: 1px solid @color-violet;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 1.5rem;
+  margin-left: -0.5rem;
+  margin-top: -1rem;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transition: -webkit-transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  width: 1.5rem; }
+  .InputRange-slider:active {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3); }
+  .InputRange-slider:focus {
+    box-shadow: 0 0 0 5px fade(@color-violet, 20%) }
+  .InputRange.is-disabled .InputRange-slider {
+    background: #cccccc;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    -webkit-transform: none;
+            transform: none; }
+
+.InputRange-sliderContainer {
+  transition: left 0.3s ease-out; }
+
+.InputRange-label {
+  color: #aaaaaa;
+  font-size: 0.8rem; }
+
+.InputRange-label--min,
+.InputRange-label--max {
+  bottom: -1.8rem;
+  font-size: 10px;
+  position: absolute; }
+
+.InputRange-label--min {
+  left: 0; top: 10px;}
+
+.InputRange-label--max {
+  right: 0;
+  top: 10px; }
+
+.InputRange-label--value {
+  position: absolute;
+  top: -3.3rem;
+  font-size: 10px; }
+
+.InputRange-labelContainer {
+  left: -50%;
+  font-size: 13px;
+  position: relative; }
+  .InputRange-label--max .InputRange-labelContainer {
+    left: 50%; }
+
+.InputRange-track {
+  background: #eeeeee;
+  border-radius: 0.3rem;
+  display: block;
+  height: 5px;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out; }
+  .InputRange.is-disabled .InputRange-track {
+    background: #eeeeee; }
+
+.InputRange-track--container {
+  left: 0;
+  margin-top: -0.15rem;
+  position: absolute;
+  right: 0;
+  top: 50%; }
+
+.InputRange-track--active {
+  background: @color-violet; }
+
+.InputRange {
+  cursor: pointer;
+  height: 1rem;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px; }

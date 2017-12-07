@@ -1,0 +1,50 @@
+input[type="text"].reactive-input {
+  position: relative;
+  width: 100%;
+  outline: 0;
+  padding: 7px 10px;
+  border: 1px solid darken(@inputbgcolor, 10%);
+  border-radius: 3px;
+  transition: all .3s ease;
+  background: #fff;
+  font-size: 14px;
+  margin-bottom: 15px;
+
+  &:focus,
+  &:active,
+  &.active {
+    border-color: darken(@inputbgcolor, 50%);
+  }
+}
+
+.searchbox-input {
+  position: relative;
+  input[type="text"] {
+    padding-right: 40px;
+    padding: 7px 30px 7px 10px;
+    min-height: 36px;
+    //background: @inputbgcolor;
+    background: transparent;
+  }
+
+  button {
+    border: 0;
+    background: transparent;
+    position: absolute;
+    right: 0px;
+    top: -2px;
+    height: 40px;
+    width: 40px;
+    z-index: 99;
+    cursor: pointer;
+    outline: 0;
+    font-size: 15px;
+    box-shadow: none;
+    &:focus,
+    &:active {
+      box-shadow: none;
+    }
+  }
+}
+
+

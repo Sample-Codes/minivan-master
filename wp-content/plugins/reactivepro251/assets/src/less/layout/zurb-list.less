@@ -1,0 +1,65 @@
+.rq-zurb-post-list{
+  border-bottom: 1px solid #eee;
+  padding: 45px 0;
+  .rq-zurb-content {
+    .zurb-post-info {
+      li {
+        font-style: italic;
+        padding: 0;
+        font-size: 12px;
+        padding-left: 5px;
+        margin-left: 0;
+        &:before {
+          content: '/';
+          font-size: 11px;
+          line-height: 11px;
+          margin-right: 9px;
+        }
+        &:first-child:before {
+          content: " ";
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .rq-zurb-post-shares {
+    padding-left: 0;
+    list-style: none;
+    margin: 20px 0 0 -5px;
+
+    li {
+      position: relative;
+      padding: 0 10px 0 5px;
+      display: inline-block;
+      margin-left: 0;
+      i {
+        color: #555;
+        width: 40px;
+        height: 40px;
+        padding: 13px;
+        font-size: 16px;
+        background: #eee;
+        text-align: center;
+        display: inline-block;
+      }
+      span {
+        top: -5px;
+        right: 6px;
+        color: #fff;
+        width: 22px;
+        height: 22px;
+        padding: 4px;
+        font-size: 10px;
+        line-height: 10px;
+        position: absolute;
+        text-align: center;
+        background: #72c02c;
+        border: 2px solid #fff;
+        border-radius: 50% !important;
+      }
+    }
+  }
+  .rq-rounded {
+      border-radius: 50% !important;
+  }
+}

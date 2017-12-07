@@ -1,0 +1,1443 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPML_EXPORT_stern_taxi_fare\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-18 02:41+0100\n"
+"PO-Revision-Date: 2016-03-18 02:41+0100\n"
+"Last-Translator: admin <pidetaxigdl@latixns.mx>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: es_ES\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/widget.php:11 ../classes/widget.php:14
+msgid "Stern taxi fare widget"
+msgstr ""
+
+# wpml-name: aed79f9826716009fb38001e557f502f
+#: ../classes/widget.php:44
+#, fuzzy
+msgid "Booking form"
+msgstr "Reservar Ahora"
+
+#: ../classes/widget.php:50
+msgid "Title:"
+msgstr ""
+
+# wpml-name: a1fa27779242b4902f7ae3bdd5c6d508
+#: ../controller/stern_taxi_fare_admin.php:59
+#, fuzzy
+msgid "Type Cars"
+msgstr "Tipo"
+
+#: ../controller/stern_taxi_fare_admin.php:67
+#: ../templates/admin/templateRule.php:12
+msgid "Pricing Rules"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_admin.php:71
+#, fuzzy
+msgid "List Addresses"
+msgstr "Pick Up Dirección"
+
+#: ../controller/stern_taxi_fare_admin.php:77
+msgid "Calendar"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_admin.php:250
+msgid "It should start by true or false"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_admin.php:262
+msgid "It should countains 8 Column"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_admin.php:264
+msgid "It has more than 8 columns"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_admin.php:266
+msgid "Type Car not correct"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_admin.php:268
+msgid "Type Car ID not reconized:"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_admin.php:271
+msgid "Price is not numeric:"
+msgstr ""
+
+# wpml-name: 36cd38f49b9afa08222c0dc9ebfe35eb
+#: ../controller/stern_taxi_fare_admin.php:274
+#, fuzzy
+msgid "Type source is wrong:"
+msgstr "source"
+
+# wpml-name: 12007e1d59f4d09c87dbe2c438256244
+#: ../controller/stern_taxi_fare_admin.php:277
+#, fuzzy
+msgid "Type destination is wrong:"
+msgstr "Destino"
+
+#: ../controller/stern_taxi_fare_admin.php:296
+msgid "Rows updated"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_ajax.php:63
+msgid "Address not found"
+msgstr ""
+
+# wpml-name: 2c4979381746c8514610b9b140a15ec9
+#: ../controller/stern_taxi_fare_ajax.php:64
+#, fuzzy
+msgid "Date round trip is wrong"
+msgstr "Ida y Vuelta"
+
+# wpml-name: af6bc33312092e81416d45bb18d939f5
+#: ../controller/stern_taxi_fare_ajax_admin.php:252
+#, fuzzy
+msgid "Car Name"
+msgstr "Tipo de Automóvil"
+
+# wpml-name: af6bc33312092e81416d45bb18d939f5
+#: ../controller/stern_taxi_fare_ajax_admin.php:253
+#, fuzzy
+msgid "Car Category"
+msgstr "Tipo de Automóvil"
+
+# wpml-name: af6bc33312092e81416d45bb18d939f5
+#: ../controller/stern_taxi_fare_ajax_admin.php:254
+#, fuzzy
+msgid "Car Fare"
+msgstr "Tipo de Automóvil"
+
+# wpml-name: b29f82b45bd1119e266328ab145129eb
+#: ../controller/stern_taxi_fare_ajax_admin.php:255
+#, fuzzy
+msgid "Nb Seats"
+msgstr "Asientos"
+
+# wpml-name: 42d63d79c137083a4e875f6a5490ae02
+#: ../controller/stern_taxi_fare_ajax_admin.php:256
+#, fuzzy
+msgid "Nb Suitcases"
+msgstr "Equipaje Máximo:"
+
+# wpml-name: a74ec9c5b6882f79e32a8fbd8da90c1b
+#: ../controller/stern_taxi_fare_ajax_admin.php:257
+#, fuzzy
+msgid "Fare per distance"
+msgstr "distance"
+
+#: ../controller/stern_taxi_fare_ajax_admin.php:258
+msgid "Fare per minute"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_ajax_admin.php:259
+msgid "Fare per seat"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_ajax_admin.php:260
+msgid "Fare per toll"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_ajax_admin.php:261
+msgid "Nb Child Seats"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_ajax_admin.php:262
+msgid "Fare per child seat"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_ajax_admin.php:263
+msgid "Minimum Course Fare"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:15
+msgid "Show calendar field as an input"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:16
+msgid ""
+"Choose if this field will appear on the top or below in form. This option "
+"will impact others fields like calendar"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:20
+msgid "Show seat field as an input"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:21
+msgid "Only true when option \"Show calendar field as an input\" is true"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:25
+msgid "Enable booking calendar"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:26
+msgid ""
+"This option will make the vehicule unavailable when the vehicle has already "
+"been booked"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:665
+msgid "Plugin Not Active! Please contact author"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:668
+msgid "Stern Taxi Fare: Data info Saved!"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:671
+msgid "Stern Taxi Fare: Please Create at least 1 type car "
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:674
+msgid "Stern Taxi Fare: Please Create first a category "
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:677
+msgid "Stern Taxi Fare: Please Enable correctly all API Google"
+msgstr ""
+
+#: ../controller/stern_taxi_fare_functions.php:680
+msgid "Stern Taxi Fare: Please select your country in backoffice"
+msgstr ""
+
+# wpml-name: 2473a26a6adb20c6e19d4f21d893a650
+#: ../controller/stern_taxi_fare_functions.php:683
+#, fuzzy
+msgid "Stern Taxi Fare: Please create product \"stern product\""
+msgstr "Por favor cree un producto \"stern product\""
+
+#: ../controller/stern_taxi_fare_functions.php:686
+msgid "Stern Taxi Fare: Option allow_url_fopen is not allowed on your host"
+msgstr ""
+
+# wpml-name: 03c5601129468c287f2b5410b78b2f9d
+#: ../controller/stern_taxi_fare_functions.php:689
+#, fuzzy
+msgid "Stern Taxi Fare: Please install plugin WooCommerce"
+msgstr "Por favor instale el plugin WooCommerce"
+
+#: ../controller/stern_taxi_fare_functions.php:1035
+msgid "Row"
+msgstr ""
+
+# wpml-name: 2c4979381746c8514610b9b140a15ec9
+#: ../controller/stern_taxi_fare_functions_api.php:125
+#: ../templates/checkout/checkout.php:21
+#: ../templates/checkout/checkoutAfter.php:19
+#: ../templates/checkout/checkoutEmail.php:18
+#: ../templates/form/showRoundTrip.php:14
+#: ../templates/form/showRoundTrip.php:17
+msgid "Round Trip"
+msgstr "Ida y Vuelta"
+
+# wpml-name: 7842d6af99ef17f9f7c2949cee044164
+#: ../controller/stern_taxi_fare_functions_api.php:125
+#: ../templates/checkout/checkout.php:21
+#: ../templates/checkout/checkoutAfter.php:19
+#: ../templates/checkout/checkoutEmail.php:18
+msgid "One way"
+msgstr "Sólo Ida"
+
+#: ../stern_taxi_fare_settings.php:97
+msgid ""
+"Stern Taxi fare: Please Install WooCommerce First before activating this "
+"Plugin. You can download WooCommerce from <a href=\"http://wordpress.org/"
+"plugins/woocommerce/\">here</a>."
+msgstr ""
+
+#: ../templates/admin/TypeCars.php:17
+msgid "Category Cars"
+msgstr ""
+
+#: ../templates/admin/TypeCars.php:23
+msgid "Categories"
+msgstr ""
+
+#: ../templates/admin/TypeCars.php:33 ../templates/admin/templateRule.php:68
+msgid "Delete"
+msgstr ""
+
+#: ../templates/admin/TypeCars.php:75
+msgid "Car category is mandatory"
+msgstr ""
+
+#: ../templates/admin/TypeCars.php:82
+msgid "Create first a category"
+msgstr ""
+
+#: ../templates/admin/design.php:19
+msgid "Design Settings"
+msgstr ""
+
+#: ../templates/admin/design.php:29
+msgid "Title"
+msgstr ""
+
+#: ../templates/admin/design.php:30 ../templates/admin/design.php:35
+msgid "Leave empty to hide it"
+msgstr ""
+
+#: ../templates/admin/design.php:34
+msgid "Subtitle"
+msgstr ""
+
+#: ../templates/admin/design.php:44
+msgid "Show dropdown typecar in form"
+msgstr ""
+
+#: ../templates/admin/design.php:45
+msgid "Dropdown typecar can be hide if for example there is only 1 car."
+msgstr ""
+
+# wpml-name: 32952818e2002de95c1cf06748a1db17
+#: ../templates/admin/design.php:49
+#, fuzzy
+msgid "Show Seat Inputs in form"
+msgstr "Mostrar estimación en resultado"
+
+#: ../templates/admin/design.php:50
+msgid "Dropdown seats Inputs"
+msgstr ""
+
+#: ../templates/admin/design.php:55
+msgid "Show calendar time & date side by side"
+msgstr ""
+
+#: ../templates/admin/design.php:56
+msgid "It splits date and time in the form"
+msgstr ""
+
+#: ../templates/admin/design.php:60
+msgid "Split calendar: date and time"
+msgstr ""
+
+#: ../templates/admin/design.php:61
+msgid "Only work when option \"Show calendar field as an input\" is true"
+msgstr ""
+
+#: ../templates/admin/design.php:65
+msgid "Split calendar: Hours and minutes"
+msgstr ""
+
+#: ../templates/admin/design.php:66
+msgid "Only work when option \"Split calendar\" is true"
+msgstr ""
+
+#: ../templates/admin/design.php:70
+msgid "Use baby seats"
+msgstr ""
+
+#: ../templates/admin/design.php:72
+msgid ""
+"This option shows in form baby seat. It will integrated in formaula. It "
+"works only when walendar input and seat input are false"
+msgstr ""
+
+#: ../templates/admin/design.php:79
+msgid "Hide labels in form"
+msgstr ""
+
+# wpml-name: 221af1321a96eb40c7b4982a89944118
+#: ../templates/admin/design.php:97
+#, fuzzy
+msgid "Show label in buttons"
+msgstr "Mostrar paradas en resultados"
+
+# wpml-name: 221af1321a96eb40c7b4982a89944118
+#: ../templates/admin/design.php:115
+#, fuzzy
+msgid "Show Tooltips in form"
+msgstr "Mostrar paradas en resultados"
+
+#: ../templates/admin/design.php:131
+msgid "Show Form in full row"
+msgstr ""
+
+#: ../templates/admin/design.php:147
+msgid "Show inputs in full row"
+msgstr ""
+
+#: ../templates/admin/design.php:164 ../templates/admin/design.php:165
+msgid "Position of price in result: Right or below"
+msgstr ""
+
+# wpml-name: 32952818e2002de95c1cf06748a1db17
+#: ../templates/admin/design.php:171
+msgid "Show estimated in result"
+msgstr "Mostrar estimación en resultado"
+
+# wpml-name: 83a6db5572cea997508a3f8d4de0d339
+#: ../templates/admin/design.php:189
+msgid "Show distance in result"
+msgstr "Mostrar distancia en resultado"
+
+# wpml-name: 0ddabe019d7248f13a12dc0aee15004e
+#: ../templates/admin/design.php:207
+msgid "Show duration in result"
+msgstr "Mostrar duración en resultado"
+
+# wpml-name: 94c428ba23d87a282f873fc0c59343b3
+#: ../templates/admin/design.php:225
+msgid "Show Suitcases in result"
+msgstr "Mostrar Equipaque en resultados"
+
+# wpml-name: 221af1321a96eb40c7b4982a89944118
+#: ../templates/admin/design.php:243
+msgid "Show tolls in results"
+msgstr "Mostrar paradas en resultados"
+
+#: ../templates/admin/design.php:260
+msgid "Show Init Button"
+msgstr ""
+
+#: ../templates/admin/design.php:278
+msgid "Use library bootstrap js"
+msgstr ""
+
+#: ../templates/admin/design.php:289
+msgid "Use library bootstrap css"
+msgstr ""
+
+#: ../templates/admin/design.php:303
+msgid "Use Bootstrap-select. "
+msgstr ""
+
+#: ../templates/admin/design.php:304
+msgid "See details "
+msgstr ""
+
+#: ../templates/admin/design.php:305
+msgid "here"
+msgstr ""
+
+#: ../templates/admin/design.php:306
+msgid ""
+"This feature is sometimes not fully compatible with all themes. It is also "
+"not responsive."
+msgstr ""
+
+# wpml-name: 0ddabe019d7248f13a12dc0aee15004e
+#: ../templates/admin/design.php:313
+#, fuzzy
+msgid "Show Pets informations in checkout"
+msgstr "Mostrar duración en resultado"
+
+#: ../templates/admin/design.php:324
+msgid "Map Style"
+msgstr ""
+
+# wpml-name: 32952818e2002de95c1cf06748a1db17
+#: ../templates/admin/design.php:350
+#, fuzzy
+msgid "Show Markers in map"
+msgstr "Mostrar estimación en resultado"
+
+#: ../templates/admin/design.php:351
+msgid "You can hide or show markers in map result."
+msgstr ""
+
+# wpml-name: 32952818e2002de95c1cf06748a1db17
+#: ../templates/admin/design.php:358
+#, fuzzy
+msgid "Show map in checkout"
+msgstr "Mostrar estimación en resultado"
+
+# wpml-name: 32952818e2002de95c1cf06748a1db17
+#: ../templates/admin/design.php:369
+#, fuzzy
+msgid "Show map in form"
+msgstr "Mostrar estimación en resultado"
+
+#: ../templates/admin/design.php:382
+msgid "Open map automatically after checking price"
+msgstr ""
+
+#: ../templates/admin/design.php:393
+msgid "Empty cart before using form"
+msgstr ""
+
+#: ../templates/admin/design.php:407
+msgid "Background color. "
+msgstr ""
+
+# wpml-name: 81eeab9506186e2dca8faefa78d54067
+#: ../templates/admin/design.php:408
+#, fuzzy
+msgid "Example: #1ABC9C"
+msgstr "Ejemplo:"
+
+#: ../templates/admin/design.php:413
+msgid "Background transparency"
+msgstr ""
+
+#: ../templates/admin/design.php:420
+msgid "Book button text"
+msgstr ""
+
+# wpml-name: 81eeab9506186e2dca8faefa78d54067
+#: ../templates/admin/design.php:421
+#, fuzzy
+msgid "Example: Book now"
+msgstr "Ejemplo:"
+
+#: ../templates/admin/design.php:430
+msgid "Url_gif_loader"
+msgstr ""
+
+# wpml-name: 81eeab9506186e2dca8faefa78d54067
+#: ../templates/admin/design.php:431
+#, fuzzy
+msgid "Example: "
+msgstr "Ejemplo:"
+
+#: ../templates/admin/design.php:439 ../templates/admin/settings.php:706
+#: ../templates/admin/templateListAddress.php:73
+msgid "Save"
+msgstr ""
+
+#: ../templates/admin/settings.php:20
+msgid "SternTaxi Fare Settings"
+msgstr ""
+
+#: ../templates/admin/settings.php:23
+msgid "Use shortcode: "
+msgstr ""
+
+#: ../templates/admin/settings.php:23
+msgid "in a page or a post, or widget."
+msgstr ""
+
+# wpml-name: 386c339d37e737a436499d423a77df0c
+#: ../templates/admin/settings.php:44
+msgid "Currency"
+msgstr "Moneda"
+
+# wpml-name: 386c339d37e737a436499d423a77df0c
+#: ../templates/admin/settings.php:50
+#, fuzzy
+msgid "Currency position"
+msgstr "Moneda"
+
+# wpml-name: 4994a8ffeba4ac3140beb89e8d41f174
+#: ../templates/admin/settings.php:59
+msgid "Language"
+msgstr "Leguaje"
+
+# wpml-name: c4726d1e02a089fb3a9035b0f97f8bf6
+#: ../templates/admin/settings.php:65
+msgid "Country to show"
+msgstr "País que se muestra"
+
+# wpml-name: 6a77e79b90a018ad58a895ac5d3ee965
+#: ../templates/admin/settings.php:320
+msgid "Unit Systems"
+msgstr "Sistema de Unidades"
+
+#: ../templates/admin/settings.php:335
+msgid "Format Date"
+msgstr ""
+
+#: ../templates/admin/settings.php:347
+msgid "Format Time"
+msgstr ""
+
+# wpml-name: 755cbc1843f329c42315731649e0689b
+#: ../templates/admin/settings.php:359
+msgid "First date available"
+msgstr "Primer fecha disponible"
+
+# wpml-name: 6a7e73161603d87b26a8eac49dab0a9c
+#: ../templates/admin/settings.php:360 ../templates/admin/settings.php:365
+msgid "Hours"
+msgstr "Horas"
+
+# wpml-name: 3b7f77c2dbd17c2e2b4be8caddf7147b
+#: ../templates/admin/settings.php:364
+msgid "First date available round trip"
+msgstr "Primera fecha disponible en viaje ida y vuelta"
+
+# wpml-name: be889458edc5a86fc9d932f42ca7e0bf
+#: ../templates/admin/settings.php:374
+#, fuzzy
+msgid "Round trip"
+msgstr "Viaje Ida y Vuelta?"
+
+#: ../templates/admin/settings.php:392
+msgid "Address of destination button"
+msgstr ""
+
+#: ../templates/admin/settings.php:398
+msgid "Address of destination button2"
+msgstr ""
+
+#: ../templates/admin/settings.php:422
+msgid "Avoid highways in calculation"
+msgstr ""
+
+#: ../templates/admin/settings.php:440 ../templates/admin/settings.php:442
+msgid "Use traffic in Calculation"
+msgstr ""
+
+#: ../templates/admin/settings.php:463
+msgid "Api Google Key. Free "
+msgstr ""
+
+#: ../templates/admin/settings.php:464
+msgid "Example: AIzaSyD5UzF18OX_hlanu8LK_HIiqPybLHP9Dao"
+msgstr ""
+
+#: ../templates/admin/settings.php:475
+msgid "Max queries to API google"
+msgstr ""
+
+#: ../templates/admin/settings.php:483
+msgid "Time between each API google queries"
+msgstr ""
+
+#: ../templates/admin/settings.php:493
+msgid "Output information about allow_url_fopen: "
+msgstr ""
+
+#: ../templates/admin/settings.php:570
+msgid "Google Maps Embed API"
+msgstr ""
+
+#: ../templates/admin/settings.php:591
+msgid "Add Address between origin and destination"
+msgstr ""
+
+#: ../templates/admin/settings.php:593
+msgid ""
+"Thanks to a drand and drop, customer can addresses between pickup address "
+"and destination address"
+msgstr ""
+
+#: ../templates/admin/settings.php:603
+msgid "Envato Item Purchase Code"
+msgstr ""
+
+#: ../templates/admin/settings.php:605
+msgid "Optional"
+msgstr ""
+
+#: ../templates/admin/settings.php:656
+msgid "Show demo Setting"
+msgstr ""
+
+#: ../templates/admin/settings.php:657
+msgid "Show demo"
+msgstr ""
+
+#: ../templates/admin/settings.php:666
+msgid "Debug mode"
+msgstr ""
+
+#: ../templates/admin/settings.php:668
+msgid "Use Only when a debug is necessary"
+msgstr ""
+
+#: ../templates/admin/settings.php:678
+msgid "Actual Version: "
+msgstr ""
+
+#: ../templates/admin/settings.php:683
+msgid "Latest version: "
+msgstr ""
+
+# wpml-name: f31bbdd1b3e85bccd652680e16935819
+#: ../templates/admin/showListGlyphicon.php:12
+#, fuzzy
+msgid "Source button"
+msgstr "Inico del Viaje"
+
+# wpml-name: f31bbdd1b3e85bccd652680e16935819
+#: ../templates/admin/showListGlyphicon.php:13
+#, fuzzy
+msgid "Source Button"
+msgstr "Inico del Viaje"
+
+# wpml-name: 12007e1d59f4d09c87dbe2c438256244
+#: ../templates/admin/showListGlyphicon.php:18
+#, fuzzy
+msgid "Destination button"
+msgstr "Destino"
+
+# wpml-name: 12007e1d59f4d09c87dbe2c438256244
+#: ../templates/admin/showListGlyphicon.php:19
+#, fuzzy
+msgid "Destination Button"
+msgstr "Destino"
+
+#: ../templates/admin/templateCalendar.php:22
+msgid "Show FullCalendar Front"
+msgstr ""
+
+#: ../templates/admin/templateCalendar.php:23
+msgid "The calendar will appear and show the niches already booked vehicle."
+msgstr ""
+
+#: ../templates/admin/templateCalendar.php:28
+msgid "Drag Event in full calendar"
+msgstr ""
+
+#: ../templates/admin/templateCalendar.php:30
+msgid ""
+"Thanks to a drand and drop, customer can book a ride in calendar. This "
+"option is not responsive!"
+msgstr ""
+
+#: ../templates/admin/templateCalendar.php:51
+msgid "Time To add after a ride"
+msgstr ""
+
+#: ../templates/admin/templateCalendar.php:53
+msgid ""
+"In minutes. Example: 10. It is minimum time driver needs before another "
+"customer book a new trip"
+msgstr ""
+
+#: ../templates/admin/templateCalendar.php:61
+msgid "Granularity in minutes"
+msgstr ""
+
+#: ../templates/admin/templateCalendar.php:63
+msgid ""
+"In minutes. Example: 60. Granularity is the level of depth represented by "
+"the calendar."
+msgstr ""
+
+#: ../templates/admin/templateCalendar.php:178
+msgid "Please set a  Granularity to show calendar"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:14
+#: ../templates/admin/templateFormula.php:15
+msgid "formula"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:16
+msgid "Edit formula"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:17
+msgid "Update formula"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:18
+msgid "Search formula"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:19
+#: ../templates/admin/templateInfo.php:19
+msgid "Not Found"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:20
+#: ../templates/admin/templateInfo.php:20
+msgid "Not found in Trash"
+msgstr ""
+
+# wpml-name: af6bc33312092e81416d45bb18d939f5
+#: ../templates/admin/templateFormula.php:64
+#, fuzzy
+msgid "carFare"
+msgstr "Tipo de Automóvil"
+
+#: ../templates/admin/templateFormula.php:65
+msgid "minimum_course_fare"
+msgstr ""
+
+# wpml-name: a74ec9c5b6882f79e32a8fbd8da90c1b
+#: ../templates/admin/templateFormula.php:66
+#, fuzzy
+msgid "fare_per_distance"
+msgstr "distance"
+
+#: ../templates/admin/templateFormula.php:67
+msgid "fare_per_minute"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:68
+msgid "fare_per_seat"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:69
+msgid "fare_per_toll"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:70
+msgid "fare_per_child_seat"
+msgstr ""
+
+#: ../templates/admin/templateFormula.php:92
+#: ../templates/admin/templateFormula.php:100
+#: ../templates/admin/templateFormula.php:108
+#: ../templates/admin/templateFormula.php:116
+#: ../templates/admin/templateFormula.php:124
+#: ../templates/admin/templateFormula.php:133
+#: ../templates/admin/templateFormula.php:141
+#: ../templates/admin/templateInfo.php:102
+#: ../templates/admin/templateInfo.php:110
+#: ../templates/admin/templateInfo.php:118
+#: ../templates/admin/templateInfo.php:126
+#: ../templates/admin/templateInfo.php:133
+#: ../templates/admin/templateInfo.php:142
+#: ../templates/admin/templateInfo.php:150
+#: ../templates/admin/templateInfo.php:158
+#: ../templates/admin/templateInfo.php:168
+#: ../templates/admin/templateInfo.php:176
+#: ../templates/admin/templateInfo.php:184
+msgid "Unknown"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:14
+#: ../templates/admin/templateInfo.php:15
+msgid "info"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:16
+msgid "Edit Info"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:17
+msgid "Update Info"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:18
+msgid "Search Info"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:64
+msgid "siteurl"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:65
+msgid "admin_email"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:66
+msgid "version_plugin"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:67
+msgid "buyer"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:68
+msgid "locale"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:69
+msgid "purchase_code"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:70
+msgid "google_api"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:74
+msgid "nbInstallation"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:75
+msgid "customer_orders"
+msgstr ""
+
+#: ../templates/admin/templateInfo.php:76
+msgid "dateFirstInstallation"
+msgstr ""
+
+#: ../templates/admin/templateListAddress.php:12
+msgid "List Address in dropdown"
+msgstr ""
+
+#: ../templates/admin/templateListAddress.php:19
+msgid "Use list address for Pick up address"
+msgstr ""
+
+#: ../templates/admin/templateListAddress.php:20
+msgid ""
+"This option will show a dropdwon instead of a google input for Pick up "
+"address"
+msgstr ""
+
+#: ../templates/admin/templateListAddress.php:46
+msgid "Use list address for destination address"
+msgstr ""
+
+#: ../templates/admin/templateListAddress.php:47
+msgid ""
+"This option will show a dropdwon instead of a google input for destination "
+"address"
+msgstr ""
+
+#: ../templates/admin/templateRule.php:13
+msgid ""
+"Work only when option \"Add Address between origin and destination\" is false"
+msgstr ""
+
+#: ../templates/admin/templateRule.php:19
+msgid "Include Seat Fare in pricing rules"
+msgstr ""
+
+#: ../templates/admin/templateRule.php:58
+msgid "Is active"
+msgstr ""
+
+#: ../templates/admin/templateRule.php:59
+msgid "Name Rule"
+msgstr ""
+
+# wpml-name: 36cd38f49b9afa08222c0dc9ebfe35eb
+#: ../templates/admin/templateRule.php:60
+#, fuzzy
+msgid "Type source"
+msgstr "source"
+
+# wpml-name: 6fb3a2762035578fc6875c6b21363e0c
+#: ../templates/admin/templateRule.php:61
+#, fuzzy
+msgid "Source value"
+msgstr "Dirección de Inicio"
+
+# wpml-name: f31bbdd1b3e85bccd652680e16935819
+#: ../templates/admin/templateRule.php:62
+#, fuzzy
+msgid "Source City"
+msgstr "Inico del Viaje"
+
+# wpml-name: 12007e1d59f4d09c87dbe2c438256244
+#: ../templates/admin/templateRule.php:63
+#, fuzzy
+msgid "Type Destination"
+msgstr "Destino"
+
+# wpml-name: 12007e1d59f4d09c87dbe2c438256244
+#: ../templates/admin/templateRule.php:64
+#, fuzzy
+msgid "Destination Value"
+msgstr "Destino"
+
+# wpml-name: 12007e1d59f4d09c87dbe2c438256244
+#: ../templates/admin/templateRule.php:65
+#, fuzzy
+msgid "Destination City"
+msgstr "Destino"
+
+# wpml-name: a1fa27779242b4902f7ae3bdd5c6d508
+#: ../templates/admin/templateRule.php:66
+#, fuzzy
+msgid "Type Car"
+msgstr "Tipo"
+
+#: ../templates/admin/templateRule.php:67
+msgid "Price for this rule"
+msgstr ""
+
+# wpml-name: 109abad42a09d44e33fdcd20683f59fe
+#: ../templates/admin/templateRule.php:162
+msgid "Bulk upload"
+msgstr "Subida Masiva"
+
+# wpml-name: 35561b95261e2ccbc22d7df877ed803b
+#: ../templates/admin/templateRule.php:165
+msgid "Use tab to split each colums. 1 rule per row."
+msgstr "Use la pestaña para dividir cada columna. 1 regla por fila."
+
+# wpml-name: 81eeab9506186e2dca8faefa78d54067
+#: ../templates/admin/templateRule.php:167
+msgid "Example:"
+msgstr "Ejemplo:"
+
+#: ../templates/admin/templateRule.php:170
+msgid "Price is 99 for all Type Cars"
+msgstr ""
+
+#: ../templates/admin/templateRule.php:173
+msgid "Price is 399 for all typeCarID = 131"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:5
+msgid "Invoice to"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:7
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:11
+msgid "Ship to"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:22
+msgid "Invoice"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:25
+#, php-format
+msgid "Order Number: %s"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:26
+#, php-format
+msgid "Order Date: %s"
+msgstr ""
+
+# wpml-name: 12007e1d59f4d09c87dbe2c438256244
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:53
+#, fuzzy
+msgid "Description"
+msgstr "Destino"
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:57
+msgid "SKU"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:61
+msgid "Cost"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:63
+msgid "Qty"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:69
+msgid "VAT"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:80
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:154
+msgid "Total"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:94
+msgid "Discount"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:102
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:118
+msgid "Shipping"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:110
+msgid "Subtotal"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:129
+msgid "Fee"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:161
+msgid "Refunded"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:298
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/body.php:303
+msgid "Customer note"
+msgstr ""
+
+#: ../templates/bewpi-templates/invoices/simple/sternTaxiFarePDF/footer.php:18
+#, php-format
+msgid "%s of %s"
+msgstr ""
+
+# wpml-name: b0642332e35292e2e60d97709529b1e6
+#: ../templates/checkout/checkout.php:35
+#: ../templates/checkout/checkoutAfter.php:28
+msgid "Your trip"
+msgstr "Tu Viaje"
+
+# wpml-name: cbf8d80a17cd2506089271ee55f280e8
+#: ../templates/checkout/checkout.php:39
+#, fuzzy
+msgid "Number of Pets"
+msgstr "Número de Paradas"
+
+# wpml-name: 23f0459a3409b7dd13e31b6a83cdaa78
+#: ../templates/checkout/checkout.php:48
+#: ../templates/checkout/checkoutAfter.php:35
+msgid "Pickup Time"
+msgstr "Hora de Recogida"
+
+# wpml-name: 0aa6f4210bf373c95eda00232e93cd98
+#: ../templates/checkout/checkout.php:56
+#: ../templates/checkout/checkoutAfter.php:43
+msgid "Distance"
+msgstr "Distancia"
+
+# wpml-name: e02d2ae03de9d493df2b6b2d2813d302
+#: ../templates/checkout/checkout.php:59
+#: ../templates/checkout/checkoutAfter.php:47
+msgid "Duration"
+msgstr "Duración"
+
+# wpml-name: af6bc33312092e81416d45bb18d939f5
+#: ../templates/checkout/checkout.php:64
+#: ../templates/checkout/checkoutAfter.php:52
+msgid "Car type"
+msgstr "Tipo de Automóvil"
+
+# wpml-name: cbf8d80a17cd2506089271ee55f280e8
+#: ../templates/checkout/checkout.php:70
+#: ../templates/checkout/checkoutAfter.php:57
+msgid "Number of Tolls"
+msgstr "Número de Paradas"
+
+# wpml-name: b29f82b45bd1119e266328ab145129eb
+#: ../templates/checkout/checkout.php:75
+#: ../templates/checkout/checkoutAfter.php:62
+#: ../templates/form/showSeatInputs.php:15
+#: ../templates/form/showSeatInputs.php:21
+msgid "Seats"
+msgstr "Asientos"
+
+# wpml-name: 42d63d79c137083a4e875f6a5490ae02
+#: ../templates/checkout/checkout.php:81
+#: ../templates/checkout/checkoutAfter.php:67
+#, fuzzy
+msgid "Suitcases"
+msgstr "Equipaje Máximo:"
+
+# wpml-name: f31bbdd1b3e85bccd652680e16935819
+#: ../templates/checkout/checkout.php:87
+#: ../templates/checkout/checkoutAfter.php:79
+msgid "Source"
+msgstr "Inico del Viaje"
+
+# wpml-name: 12007e1d59f4d09c87dbe2c438256244
+#: ../templates/checkout/checkout.php:92
+#: ../templates/checkout/checkoutAfter.php:84
+#: ../templates/form/showInputAddress.php:55
+#: ../templates/form/showInputAddress.php:58
+msgid "Destination"
+msgstr "Destino"
+
+# wpml-name: be889458edc5a86fc9d932f42ca7e0bf
+#: ../templates/checkout/checkout.php:96
+#: ../templates/checkout/checkoutAfter.php:88
+msgid "Round trip?"
+msgstr "Viaje Ida y Vuelta?"
+
+# wpml-name: 5ef7eebf10ad890e1fa4e72a6c982132
+#: ../templates/checkout/checkout.php:101
+#: ../templates/checkout/checkoutAfter.php:93
+msgid "Pickup Time for Round Trip"
+msgstr "Tiempo de Recogida de Viaje Ida y Vuelta"
+
+# wpml-name: cbf8d80a17cd2506089271ee55f280e8
+#: ../templates/checkout/checkoutAfter.php:73
+#, fuzzy
+msgid "Number Of Pets"
+msgstr "Número de Paradas"
+
+# wpml-name: 3bafa8fb494ef34d5360e2ec1d38e2b4
+#: ../templates/checkout/checkoutEmail.php:22
+msgid "Trip"
+msgstr "Viaje"
+
+# wpml-name: 266b75a611d5b9e1f86e74cd85c91ab1
+#: ../templates/checkout/checkoutEmail.php:27
+#: ../templates/form/showResults.php:50
+msgid "Distance: "
+msgstr "Distancia:"
+
+# wpml-name: ffd9ba4a276bfa0e587bf643588cbf02
+#: ../templates/checkout/checkoutEmail.php:35
+#, fuzzy
+msgid "duration: "
+msgstr "Duración:"
+
+# wpml-name: 96058534383b3b11f27091ef8a51e2a2
+#: ../templates/checkout/checkoutEmail.php:42
+#, fuzzy
+msgid "cartypes: "
+msgstr "cartypes"
+
+# wpml-name: 36cd38f49b9afa08222c0dc9ebfe35eb
+#: ../templates/checkout/checkoutEmail.php:49
+#, fuzzy
+msgid "source: "
+msgstr "source"
+
+# wpml-name: 6990a54322d9232390a784c5c9247dd6
+#: ../templates/checkout/checkoutEmail.php:56
+#, fuzzy
+msgid "destination: "
+msgstr "destination"
+
+# wpml-name: b29f82b45bd1119e266328ab145129eb
+#: ../templates/checkout/checkoutEmail.php:63
+#, fuzzy
+msgid "Seats: "
+msgstr "Asientos"
+
+# wpml-name: 42d63d79c137083a4e875f6a5490ae02
+#: ../templates/checkout/checkoutEmail.php:71
+#, fuzzy
+msgid "Suitcases: "
+msgstr "Equipaje Máximo:"
+
+# wpml-name: 86a2a25865aa7f8699db666e221186a2
+#: ../templates/checkout/checkoutEmail.php:80
+#, fuzzy
+msgid "dateTimePickUp: "
+msgstr "dateTimePickUp"
+
+# wpml-name: 0159cfc29a8682a27cdaf3d1ca797a30
+#: ../templates/checkout/checkoutEmail.php:85
+#, fuzzy
+msgid "nbToll: "
+msgstr "Paradas"
+
+# wpml-name: cbf8d80a17cd2506089271ee55f280e8
+#: ../templates/checkout/checkoutEmail.php:90
+#, fuzzy
+msgid "Number Of Pets: "
+msgstr "Número de Paradas"
+
+# wpml-name: be889458edc5a86fc9d932f42ca7e0bf
+#: ../templates/checkout/checkoutEmail.php:94
+#, fuzzy
+msgid "Round trip: "
+msgstr "Viaje Ida y Vuelta?"
+
+# wpml-name: 2c4979381746c8514610b9b140a15ec9
+#: ../templates/checkout/checkoutEmail.php:98
+#, fuzzy
+msgid "Date Round Trip: "
+msgstr "Ida y Vuelta"
+
+# wpml-name: b29f82b45bd1119e266328ab145129eb
+#: ../templates/form/showBabySeatInputs.php:9
+#: ../templates/form/showBabySeatInputs.php:15
+#, fuzzy
+msgid "Baby Seats"
+msgstr "Asientos"
+
+#: ../templates/form/showButtonCheckOut.php:5
+msgid "Book!"
+msgstr ""
+
+# wpml-name: 5cea19ac1492a9fa25f32addb370cf2e
+#: ../templates/form/showButtons.php:16 ../templates/form/showButtons.php:37
+#: ../templates/form/showButtons.php:42
+msgid "Show Map"
+msgstr "Mapa"
+
+# wpml-name: 907bc8da9baa395045e2019574b680e1
+#: ../templates/form/showButtons.php:27 ../templates/form/showButtons.php:30
+msgid "Reset Form"
+msgstr "Cancelar"
+
+# wpml-name: f5fe0f74703e91cfb16f96d010893168
+#: ../templates/form/showButtons.php:46 ../templates/form/showButtons.php:51
+msgid "Check Price"
+msgstr "Calcular"
+
+# wpml-name: c08be20d9d8a22d5d9dc3fa8c615e9c2
+#: ../templates/form/showDateTimeInput.php:21
+#: ../templates/form/showDateTimeInput.php:23
+#, fuzzy
+msgid "Date Picking for round trip"
+msgstr "Selección de Fecha-Hora del viaje Ida y Vuelta"
+
+# wpml-name: c08be20d9d8a22d5d9dc3fa8c615e9c2
+#: ../templates/form/showDateTimeInput.php:22
+#: ../templates/form/showDateTimeInput.php:24
+#, fuzzy
+msgid "Time Picking for round trip"
+msgstr "Selección de Fecha-Hora del viaje Ida y Vuelta"
+
+#: ../templates/form/showDateTimeInput.php:31
+#: ../templates/form/showDateTimeInput.php:66
+msgid "am/pm"
+msgstr ""
+
+# wpml-name: 6a7e73161603d87b26a8eac49dab0a9c
+#: ../templates/form/showDateTimeInput.php:37
+#: ../templates/form/showDateTimeInput.php:74
+#, fuzzy
+msgid "Hour"
+msgstr "Horas"
+
+#: ../templates/form/showDateTimeInput.php:38
+#: ../templates/form/showDateTimeInput.php:75
+msgid "Min"
+msgstr ""
+
+# wpml-name: c08be20d9d8a22d5d9dc3fa8c615e9c2
+#: ../templates/form/showDateTimeInput.php:45
+#: ../templates/form/showDateTimeInput.php:46
+msgid "DateTime Picking for round trip"
+msgstr "Selección de Fecha-Hora del viaje Ida y Vuelta"
+
+# wpml-name: 695115570ab5d177850bf66ba17489a6
+#: ../templates/form/showDateTimeInput.php:56
+#: ../templates/form/showDateTimeInput.php:58
+#, fuzzy
+msgid "Date Picking"
+msgstr "Selección de Fecha-Hora"
+
+# wpml-name: 695115570ab5d177850bf66ba17489a6
+#: ../templates/form/showDateTimeInput.php:57
+#: ../templates/form/showDateTimeInput.php:59
+#, fuzzy
+msgid "Time Picking"
+msgstr "Selección de Fecha-Hora"
+
+# wpml-name: 695115570ab5d177850bf66ba17489a6
+#: ../templates/form/showDateTimeInput.php:83
+#: ../templates/form/showDateTimeInput.php:84
+msgid "DateTime Picking"
+msgstr "Selección de Fecha-Hora"
+
+# wpml-name: 292a85ae9f35e49553d2b926b8579801
+#: ../templates/form/showForm1.php:137
+msgid "Great! "
+msgstr "Grandioso!"
+
+# wpml-name: fb0f66adf407fe25e8a35fa633e32e6b
+#: ../templates/form/showForm1.php:138
+msgid "This is a fixed price ! "
+msgstr "Este es un precio fijo!"
+
+#: ../templates/form/showForm1.php:143
+msgid "Please select a date greater than "
+msgstr ""
+
+# wpml-name: ef7bd68a02b6b5656554f7a27d1c7bdf
+#: ../templates/form/showForm1.php:148
+msgid "Error!"
+msgstr "Error!"
+
+# wpml-name: 292a85ae9f35e49553d2b926b8579801
+#: ../templates/form/showForm1.php:156
+#, fuzzy
+msgid "Great!"
+msgstr "Grandioso!"
+
+#: ../templates/form/showInputAddress.php:25
+#: ../templates/form/showInputAddress.php:26
+msgid "Pick Up Address"
+msgstr "Pick Up Dirección"
+
+# wpml-name: 81eeab9506186e2dca8faefa78d54067
+#: ../templates/form/showInputAddress.php:27
+#, fuzzy
+msgid "Example airport"
+msgstr "Ejemplo:"
+
+# wpml-name: 81eeab9506186e2dca8faefa78d54067
+#: ../templates/form/showInputAddress.php:56
+#, fuzzy
+msgid "Example city"
+msgstr "Ejemplo:"
+
+#: ../templates/form/showInputAddress.php:108
+msgid "Find Me!"
+msgstr ""
+
+# wpml-name: 712106fcd676162564186945b6654623
+#: ../templates/form/showResults.php:60
+msgid "Tolls: "
+msgstr "Paradas:"
+
+# wpml-name: ffd9ba4a276bfa0e587bf643588cbf02
+#: ../templates/form/showResults.php:70
+msgid "Duration: "
+msgstr "Duración:"
+
+# wpml-name: 42d63d79c137083a4e875f6a5490ae02
+#: ../templates/form/showResults.php:81
+msgid "Max suitcases: "
+msgstr "Equipaje Máximo:"
+
+#: ../templates/form/showResults.php:91
+msgid "Fare: "
+msgstr ""
+
+# wpml-name: 0b58c6c7a42d8d7802e0b507dc2e252d
+#: ../templates/form/showRoundTrip.php:18
+msgid "One Way"
+msgstr "Sólo Ida"
+
+# wpml-name: 988fd738de9c6d177440c5dcf69e73ce
+#: ../templates/form/showRoundTrip.php:19
+msgid "Return"
+msgstr "Regreso"
+
+# wpml-name: af6bc33312092e81416d45bb18d939f5
+#: ../templates/form/showTypeCar.php:28
+msgid "Car Type"
+msgstr "Tipo de Automóvil"
+
+# wpml-name: 755cbc1843f329c42315731649e0689b
+#: ../templates/form/showTypeCar.php:32
+#, fuzzy
+msgid "No cars available"
+msgstr "Primer fecha disponible"
+
+# wpml-name: c08be20d9d8a22d5d9dc3fa8c615e9c2
+#, fuzzy
+#~ msgid "Use DateTimePicker for time"
+#~ msgstr "Selección de Fecha-Hora del viaje Ida y Vuelta"
+
+# wpml-name: 8eea62084ca7e541d918e823422bd82e
+#~ msgid "Result"
+#~ msgstr "Resultado"
+
+# wpml-name: e99462d5ae99bd871bba903b0fdbab56
+#, fuzzy
+#~ msgid "car_seats: "
+#~ msgstr "car_seats"
+
+# wpml-name: 523079d5f2bab324c7a35632fbf30950
+#~ msgid "Estimated Fare: "
+#~ msgstr "Tarifa Estimada:"
+
+# wpml-name: 7d0ff0da3d846a4512cb68f630735e35
+#~ msgid "dateTimePickUpRoundTrip"
+#~ msgstr "dateTimePickUpRoundTrip"
+
+# wpml-name: 0b19d4521039676f11f104bff880fbdf
+#~ msgid "stern_taxi_fare_round_trip"
+#~ msgstr "stern_taxi_fare_round_trip"
+
+# wpml-name: a20fde7af507e4e10434c15a9a668b88
+#~ msgid "Number of passengers"
+#~ msgstr "Número de Pasajeros"
+
+# wpml-name: 62cef8d5863c877bc66f7f47f4d4aabc
+#~ msgid "Please Try again"
+#~ msgstr "Intente Nuevamente"
+
+# wpml-name: a9228b2d246dad21914c51b4d2f6054c
+#~ msgid "Drop Off Address"
+#~ msgstr "Dirección de Destino"
+
+# wpml-name: b85ec314bf443b797ef8a66b3b03f8a4
+#~ msgid "duration"
+#~ msgstr "duration"
+
+# wpml-name: 4bb00011150e63275989d05ad7d1f6db
+#~ msgid "Use stern_taxi_fare_lib_bootstrap_js "
+#~ msgstr "Use stern_taxi_fare_lib_bootstrap_js "

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from minibus-test.ideliver.top/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Sep 2017 15:59:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+    <title>Festimove</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="assets/datetimepicker/jquery.datetimepicker.css"/ >
+    <style type="text/css">
+      .error{
+        color:red !important;
+        text-transform: lowercase !important;
+        font-size: 14px !important;
+      }
+      .flash-margin{margin-top: 10px;}
+    </style>
+    <script type="text/javascript">
+      if(window.opener){
+        window.opener.document.location.href="index.html";
+        window.close();
+      }
+    </script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-orange">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" /></a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">          
+          <ul class="nav navbar-nav navbar-right">            
+            <li class="dropdown open">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">MENU <span class="sandwitch"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="rent.html">LOUER UN MINIBUS</a></li>
+                <li><a href="fleets.html">NOS V&Eacute;HICULES</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="qui-sommes-nous.html">QUI SOMMES NOUS</a></li>
+                              </ul>
+            </li>
+          </ul>
+                      <ul class="nav navbar-nav separator navbar-right"> 
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nous contacter</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">+33602838291</a></li>
+                  <li><a href="contact.html">Nous contacter par mail</a></li>
+                </ul>
+              </li>
+              <li><a href="login.html">Se connecter</a></li>
+            </ul>
+                       
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+
+      <section id="content">
+     <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="festi-title">Se connecter</h1>
+                                        <form class="form-horizontal b-form login-block" role="formlogin" method="POST" action="http://minibus-test.ideliver.top/login" id="logIn">
+              <input type="hidden" name="_token" value="eL4oF5Uesg7HYlcc9NjvMuwNW2oWKbtKctohExkS">
+            <div class="form-group">
+              <label for="name" class="col-sm-4 control-label">Nom d&#039;utilisateur *</label>
+              <div class="col-sm-8">
+                  <input id="email1" type="email" class="form-control" name="email" value="" required="" placeholder="Nom d&#039;utilisateur">
+              </div>
+            </div>
+
+             <div class="form-group">
+              <label for="name" class="col-sm-4 control-label">Mot de passe *</label>
+              <div class="col-sm-8">
+                  <input id="password" type="password" class="form-control" name="password" required="" placeholder="Mot de passe">
+              </div>
+            </div>
+
+             <div class="form-group">
+              <div class="col-sm-offset-4 col-sm-8">
+                <div class="checkbox">
+                  <label>
+                      <input type="checkbox" name="remember"> Se souvenir de moi
+                  </label>
+                  <br />
+                  <br />
+                  <a href="password/reset.html">Mot de passe oubli&eacute; ?</a><br />
+                  <a href="register.html">S&#039;enregistrer</a> 
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-4 col-sm-8">
+                <button type="submit" class="block-btn">Se connecter</button>
+                <p class="or">ou</p>
+                <button type="button" class="fb-btn" onclick="window.open('https://www.facebook.com/v2.8/dialog/oauth?client_id=155802074956413&amp;redirect_uri=http%3A%2F%2Fminibus-test.ideliver.top%2Ffb_callback&amp;scope=email&amp;response_type=code&amp;state=0GnolBxwUufbuGZYUj2gGwOeyRhESN2iwcuYQqrR','popup','width=700,height=700'); return false;">Se connecter avec Facebook</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <img class="resp" id="banner-img" src="assets/images/login-banner.jpg" />
+        </div>
+      </div>
+     </div>
+  </section>
+ 
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="container">
+        <ul class="nav">
+                                    <li><a href="garanties.html">Garanties</a></li>
+                          <li><a href="modes-de-paiement.html">Modes de Paiement</a></li>
+                          <li><a href="reglementation-et-legislation.html">R&eacute;glementation et l&eacute;gislation</a></li>
+                          <li><a href="conditions-generales-de-vente.html">Conditions G&eacute;n&eacute;rales de Vente</a></li>
+                          <li><a href="mentions-legales.html">Mentions l&eacute;gales</a></li>
+                                <li><a href="contact.html">Contactez-nous</a></li>
+        </ul>
+        <p>Droits d&#039;auteur &copy; 2017 Festimove</p>
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <script src="assets/plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/jquery-validation/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery-validation/localization/messages_fr.js"></script>
+  <script type="text/javascript">
+    $('#logIn').validate({
+      lang: 'fr'
+    });
+  </script>    
+  </body>
+
+<!-- Mirrored from minibus-test.ideliver.top/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Sep 2017 15:59:30 GMT -->
+</html>

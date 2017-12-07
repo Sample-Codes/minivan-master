@@ -1,0 +1,54 @@
+.rq-latest-three-grid-mixin() {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all .3s ease;
+
+  a {
+    width: 100%;
+    transition: all .3s ease;
+    height: 100%;
+    display: block;
+  }
+  .on-hover-cotnent {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all .3s ease;
+    position: relative;
+    z-index: 999;
+
+    h3 {
+      text-align: center;
+    }
+    .center-title {
+      opacity: 0;
+      padding-top: 70px;
+      transition: all .4s ease;
+    }
+    .rq-title-footer {
+      .post-date {
+        opacity: 0;
+        transition: all .4s ease;
+
+      }
+    }
+
+  }
+  &:hover {
+    .on-hover-cotnent {
+      .center-title {
+        opacity: 1;
+        padding-top: 0;
+      }
+      .post-date {
+        opacity: 1;
+      }
+
+    }
+  }
+}

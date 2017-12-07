@@ -1,0 +1,57 @@
+.horizontal-parent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  //margin-left: -5px;
+  //margin-right: -5px;
+
+  .horizontal-elements {
+    position: relative;
+    width:  25%;
+    padding-right: 5px;
+    padding-left: 5px;
+
+  }
+}
+
+.horizontalactive,
+.verticalactive {
+  position: relative;
+  display: block;
+  padding: 15px 0;
+  padding-bottom: 10px;
+
+  a {
+    margin-right: 15px;
+    margin-right: 15px;
+    padding: 10px 20px;
+    background: #F9F9F9;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 3px;
+    transition: all .3s ease;
+    text-decoration: none;
+    /* margin-top: 12px; */
+    &:hover {
+      text-decoration: none;
+      background: #FFBD21;
+    }
+    &:focus,
+    &:active {
+      background: #FFBD21;
+      color: #333;
+      text-decoration: none;
+    }
+  }
+}
+
+.verticalactive .vertical {
+  background: #FFBD21;
+}
+
+.horizontalactive .horizontal {
+  background: #FFBD21;
+}

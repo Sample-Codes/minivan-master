@@ -1,0 +1,130 @@
+.rq-top-heading-mixin() {
+  .post-image-container {
+    position: relative;
+    height: 380px;
+    &:hover {
+      .image-hover-coantainer {
+        transform: scale(1.2);
+      }
+      .rq-img-post-title-content {
+        top: 0;
+      }
+    }
+    .image-hover-coantainer {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      transition: all .6s ease;
+    }
+    .img-post-title-content {
+      background: #f3f3f3;
+      padding: 30px 30px 15px;
+      position: relative;
+      top: -100%;
+      @media(max-width: 991px) {
+        top: 0;
+      }
+      :hover& {
+        top: 0;
+        h2 {
+          top: 0;
+        }
+        .post-date {
+          top: 0;
+        }
+      }
+      &:before {
+        content: '';
+        width: 150%;
+        height: 60px;
+        background: #f3f3f3;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: -8px;
+        transform: rotate(-3deg);
+      }
+      h2 {
+        position: relative;
+        top: -15px;
+        transition: all .3s ease;
+        transition-delay: .3s;
+        // @media(max-width: 991px) {
+        //   top: 0;
+        // }
+
+        a {
+          color: #333;
+        }
+      }
+      .post-date {
+        position: relative;
+        top: 15px;
+        transition: all .3s ease;
+        transition-delay: .3s;
+        color: #bababa;
+        @media(max-width: 991px) {
+          top: 0;
+        }
+      }
+    }
+
+
+    .rq-img-post-title-content {
+       background: #f3f3f3;
+       padding: 24px 30px 15px;
+       position: absolute;
+       top: -100%;
+       left: 0;
+       z-index: 99;
+       width: 100%;
+       transition: all .4s ease;
+      @media(max-width: 991px) {
+        top: 0;
+      }
+      :hover& {
+        top: 0;
+        h2 {
+          top: 0;
+        }
+        .post-date {
+          top: 0;
+        }
+      }
+      &:before {
+        content: '';
+        width: 150%;
+        height: 200%;
+        background: #f3f3f3;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: -8px;
+        transform: rotate(-3deg);
+      }
+      h2 {
+        position: relative;
+        top: -15px;
+        transition: all .3s ease;
+        transition-delay: .3s;
+        @media(max-width: 991px) {
+          top: 0;
+        }
+
+        a {
+          color: #333;
+        }
+      }
+      .post-date {
+        position: relative;
+        top: 15px;
+        transition: all .3s ease;
+        transition-delay: .3s;
+        color: #bababa;
+        @media(max-width: 991px) {
+          top: 0;
+        }
+      }
+    }
+  }
+}
